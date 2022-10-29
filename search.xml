@@ -4,11 +4,311 @@
   
     
     <entry>
-      <title>Java转义字符</title>
-      <link href="/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
-      <url>/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</url>
+      <title>表操作</title>
+      <link href="/2022/10/29/%E8%A1%A8%E6%93%8D%E4%BD%9C/"/>
+      <url>/2022/10/29/%E8%A1%A8%E6%93%8D%E4%BD%9C/</url>
       
-        <content type="html"><![CDATA[<h3 id="Java常用的转义字符"><a href="#Java常用的转义字符" class="headerlink" title="Java常用的转义字符"></a>Java常用的转义字符</h3><p>在控制台，输入 tab 键，可以实现命令补全</p><p>\t  ：一个制表位，实现对齐的功能</p><p>\n  ：换行符</p><p>\  ：一个\</p><p>&quot;  :一个”</p><p>&#39;  ：一个’</p><p>\r  :一个回车 System.out.println(“韩顺平教育\r 北京”);</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="创建表"><a href="#创建表" class="headerlink" title="创建表"></a>创建表</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292324919.png" alt="image-20221029232452746"></p><h3 id="修改表-基本介绍"><a href="#修改表-基本介绍" class="headerlink" title="修改表-基本介绍"></a>修改表-基本介绍</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292326614.png" alt="image-20221029232608319"></p><p>修改列的名自  ALTER TABLE TABLENAME CHANGE 旧列名  新列名 新列表的数据类型 ;</p><p><img src="http://cdn.mafuhexo.cn/img/202210292338112.png" alt="微信截图_20221029233801"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据量 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySql数据类型</title>
+      <link href="/2022/10/29/MySql%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+      <url>/2022/10/29/MySql%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="MySql常用数据类型（列类型）"><a href="#MySql常用数据类型（列类型）" class="headerlink" title="MySql常用数据类型（列类型）"></a>MySql常用数据类型（列类型）</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292314546.png" alt="image-20221029231418196"></p><h3 id="数值型-整数-的基本使用"><a href="#数值型-整数-的基本使用" class="headerlink" title="数值型(整数)的基本使用"></a>数值型(整数)的基本使用</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292315908.png" alt="image-20221029231520702"></p><h3 id="如何定义一个无正负符号的整数"><a href="#如何定义一个无正负符号的整数" class="headerlink" title="如何定义一个无正负符号的整数"></a>如何定义一个无正负符号的整数</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="http://cdn.mafuhexo.cn/img/202210292316191.png" alt="image-20221029231648015"></h3><h3 id="数值型（bit）的使用"><a href="#数值型（bit）的使用" class="headerlink" title="数值型（bit）的使用"></a>数值型（bit）的使用</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292317931.png" alt="image-20221029231722765"></p><h3 id="数值型（小数）的基本使用"><a href="#数值型（小数）的基本使用" class="headerlink" title="数值型（小数）的基本使用"></a>数值型（小数）的基本使用</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292319837.png" alt="image-20221029231934617"></p><h3 id="字符串的基本使用"><a href="#字符串的基本使用" class="headerlink" title="字符串的基本使用"></a>字符串的基本使用</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292321208.png" alt="image-20221029232116003"></p><h3 id="字符串使用细节"><a href="#字符串使用细节" class="headerlink" title="字符串使用细节"></a>字符串使用细节</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292321906.png" alt="image-20221029232159734"></p><p><img src="http://cdn.mafuhexo.cn/img/202210292322960.png" alt="image-20221029232207791"></p><p><img src="http://cdn.mafuhexo.cn/img/202210292322621.png" alt="image-20221029232233295"></p><p><img src="http://cdn.mafuhexo.cn/img/202210292323957.png" alt="image-20221029232320760"></p><h3 id="日期类型的基本使用"><a href="#日期类型的基本使用" class="headerlink" title="日期类型的基本使用"></a>日期类型的基本使用</h3><p><img src="http://cdn.mafuhexo.cn/img/202210292323477.png" alt="image-20221029232353214"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据库操作</title>
+      <link href="/2022/10/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/"/>
+      <url>/2022/10/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<h3 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028161202248.png" alt="image-20221028161202248"></p><h3 id="查看、删除数据库"><a href="#查看、删除数据库" class="headerlink" title="查看、删除数据库"></a>查看、删除数据库</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028161239863.png" alt="image-20221028161239863"></p><h3 id="备份恢复数据库"><a href="#备份恢复数据库" class="headerlink" title="备份恢复数据库"></a>备份恢复数据库</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028161339761.png" alt="image-20221028161339761"></p><h3 id="备份恢复数据库的表"><a href="#备份恢复数据库的表" class="headerlink" title="备份恢复数据库的表"></a>备份恢复数据库的表</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028161437995.png" alt="image-20221028161437995"></p><h3 id="案列SQL语句"><a href="#案列SQL语句" class="headerlink" title="案列SQL语句"></a>案列SQL语句</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221028161457.png" alt="微信截图_20221028161457"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据库三层结构</title>
+      <link href="/2022/10/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%89%E5%B1%82%E7%BB%93%E6%9E%84/"/>
+      <url>/2022/10/28/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%89%E5%B1%82%E7%BB%93%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<h3 id="数据库介绍"><a href="#数据库介绍" class="headerlink" title="数据库介绍"></a>数据库介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028141610869.png" alt="image-20221028141610869"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221028141633871.png" alt="image-20221028141633871"></p><h3 id="数据在数据库中的存储方式"><a href="#数据在数据库中的存储方式" class="headerlink" title="数据在数据库中的存储方式"></a>数据在数据库中的存储方式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028141700867.png" alt="image-20221028141700867"></p><h3 id="SQL语句分类"><a href="#SQL语句分类" class="headerlink" title="SQL语句分类"></a>SQL语句分类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028141727051.png" alt="image-20221028141727051"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySql的安装和使用</title>
+      <link href="/2022/10/28/MySql%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/10/28/MySql%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028105539722.png" alt="image-20221028105539722"></p><p>Mysql5.7地址：<a href="https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.19-winx64.zip">https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.19-winx64.zip</a></p><h3 id="特别说明"><a href="#特别说明" class="headerlink" title="特别说明"></a>特别说明</h3><p>如果安装过Mysql过程中，出错了或者想重新再来一把</p><p>sc delete mysql 【删除已经安装好的mysql服务 :提示：慎重】</p><h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol><li>下载后会得到zip 安装文件</li><li>解压的路径最好不要有中文和空格</li><li>这里我解压到 D:\hspmysql\mysql-5.7.19-winx64 目录下 【根据自己的情况来指定目录,尽量选择空间大的盘】</li><li>添加环境变量 : 电脑-属性-高级系统设置-环境变量，在Path 环境变量增加mysql的安装目录\bin目录, 如下图</li></ol><p><img src="https://cdn.mafuhexo.cn/img/image-20221028105757549.png" alt="image-20221028105757549"></p><ol start="5"><li>在D:\hspmysql\mysql-5.7.19-winx64 目录下下创建 my.ini 文件, 需要我们自己创建，复制下面代码</li></ol><p>[client]</p><p>port&#x3D;3306</p><p>default-character-set&#x3D;utf8</p><p>[mysqld]</p><p># 设置为自己MYSQL的安装目录</p><p>basedir&#x3D;D:\hspmysql\mysql-5.7.19-winx64\</p><p># 设置为MYSQL的数据目录</p><p>datadir&#x3D;D:\hspmysql\mysql-5.7.19-winx64\data\</p><p>port&#x3D;3306</p><p>character_set_server&#x3D;utf8</p><p>#跳过安全检查</p><p>skip-grant-tables</p><ol start="6"><li>使用<strong>管理员身份</strong>打开 cmd , 并切换到 D:\hspmysql\mysql-5.7.19-winx64\bin 目录下, 执行mysqld -install</li><li>初始化数据库: mysqld –initialize-insecure –user&#x3D;mysql ，执行成功会生成data目录</li></ol><p><img src="https://cdn.mafuhexo.cn/img/image-20221028110009473.png" alt="image-20221028110009473"></p><p>​8. 启动mysql 服务: net start mysql 【停止mysql服务指令 net stop mysql】, 如果成功:</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221028110058447.png" alt="image-20221028110058447"></p><p>​9.进入mysql 管理终端: mysql -u root -p 【当前root 用户密码为 空】</p><p>​10.修改root密码</p><p>use mysql;  </p><p>update user set authentication_string&#x3D;password(‘mafu’) where user&#x3D;’root’ and Host&#x3D;’localhost’;</p><p>上面的语句就是修改 root用户的密码为 hsp</p><p><strong>注意</strong>：在后面需要带 分号，回车即可执行该指令</p><p>执行: flush privileges; 刷新权限</p><p>退出: quit</p><p>​11.修改my.ini , 再次进入就会进行权限验证了  #skip-grant-tables </p><p>​12. 重新启动mysql </p><p><img src="https://cdn.mafuhexo.cn/img/image-20221028110407916.png" alt="image-20221028110407916"></p><p>​13.再次进入Mysql, 输入正确的用户名和密码</p><p>mysql -u root -p</p><p>密码正确，进入mysql</p><p>密码错误，提示如下信息</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221028110445509.png" alt="image-20221028110445509"></p><p>安装过程中，一定要按照步骤来，不然会错误.</p><p>如果真的错误了， 清除mysql服务, 再次安装.</p><h3 id="操作示意图"><a href="#操作示意图" class="headerlink" title="操作示意图"></a>操作示意图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221028141332233.png" alt="image-20221028141332233"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>反射访问方法</title>
+      <link href="/2022/10/27/%E5%8F%8D%E5%B0%84%E8%AE%BF%E9%97%AE%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/10/27/%E5%8F%8D%E5%B0%84%E8%AE%BF%E9%97%AE%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="访问方法"><a href="#访问方法" class="headerlink" title="访问方法"></a>访问方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027163838050.png" alt="image-20221027163838050"></p><h3 id="案列代码："><a href="#案列代码：" class="headerlink" title="案列代码："></a>案列代码：</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027164612.png" alt="微信截图_20221027164612"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027164511.png" alt="微信截图_20221027164511"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>反射访问属性</title>
+      <link href="/2022/10/27/%E5%8F%8D%E5%B0%84%E8%AE%BF%E9%97%AE%E5%B1%9E%E6%80%A7/"/>
+      <url>/2022/10/27/%E5%8F%8D%E5%B0%84%E8%AE%BF%E9%97%AE%E5%B1%9E%E6%80%A7/</url>
+      
+        <content type="html"><![CDATA[<h3 id="访问属性"><a href="#访问属性" class="headerlink" title="访问属性:"></a>访问属性:</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027162322866.png" alt="image-20221027162322866"></p><h4 id="案列代码"><a href="#案列代码" class="headerlink" title="案列代码:"></a>案列代码:</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027162426.png" alt="微信截图_20221027162426"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027162451.png" alt="微信截图_20221027162451"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>反射创建对象</title>
+      <link href="/2022/10/27/%E5%8F%8D%E5%B0%84%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1/"/>
+      <url>/2022/10/27/%E5%8F%8D%E5%B0%84%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="通过反射创建对象"><a href="#通过反射创建对象" class="headerlink" title="通过反射创建对象"></a>通过反射创建对象</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027160001247.png" alt="image-20221027160001247"></p><h3 id="案列代码"><a href="#案列代码" class="headerlink" title="案列代码"></a>案列代码</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027160048.png" alt="微信截图_20221027160048"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221027160030.png" alt="微信截图_20221027160030"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>反射获取类结构信息</title>
+      <link href="/2022/10/27/%E5%8F%8D%E5%B0%84%E8%8E%B7%E5%8F%96%E7%B1%BB%E7%BB%93%E6%9E%84%E4%BF%A1%E6%81%AF/"/>
+      <url>/2022/10/27/%E5%8F%8D%E5%B0%84%E8%8E%B7%E5%8F%96%E7%B1%BB%E7%BB%93%E6%9E%84%E4%BF%A1%E6%81%AF/</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一组：java-lang-Class-类"><a href="#第一组：java-lang-Class-类" class="headerlink" title="第一组：java.lang.Class 类"></a>第一组：java.lang.Class 类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027152311136.png" alt="image-20221027152311136"></p><h3 id="第二组：java-lang-reflect-Field类"><a href="#第二组：java-lang-reflect-Field类" class="headerlink" title="第二组：java.lang.reflect.Field类"></a>第二组：java.lang.reflect.Field类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027152417223.png" alt="image-20221027152417223"></p><h3 id="第三组：java-lang-reflect-Method-类"><a href="#第三组：java-lang-reflect-Method-类" class="headerlink" title="第三组：java.lang.reflect.Method 类"></a>第三组：java.lang.reflect.Method 类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027152459637.png" alt="image-20221027152459637"></p><h3 id="第四组：java-lang-reflect-Constructor-类"><a href="#第四组：java-lang-reflect-Constructor-类" class="headerlink" title="第四组：java.lang.reflect.Constructor 类"></a>第四组：java.lang.reflect.Constructor 类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221027152522992.png" alt="image-20221027152522992"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类加载</title>
+      <link href="/2022/10/25/%E7%B1%BB%E5%8A%A0%E8%BD%BD/"/>
+      <url>/2022/10/25/%E7%B1%BB%E5%8A%A0%E8%BD%BD/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212550355.png" alt="image-20221026212550355"></p><h3 id="类加载时机"><a href="#类加载时机" class="headerlink" title="类加载时机"></a>类加载时机</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212558167.png" alt="image-20221026212558167"></p><h3 id="类加载过程图"><a href="#类加载过程图" class="headerlink" title="类加载过程图"></a>类加载过程图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212618756.png" alt="image-20221026212618756"></p><h3 id="类加载各阶段完成任务"><a href="#类加载各阶段完成任务" class="headerlink" title="类加载各阶段完成任务"></a>类加载各阶段完成任务</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212814017.png" alt="image-20221026212814017"></p><h3 id="加载阶段"><a href="#加载阶段" class="headerlink" title="加载阶段"></a>加载阶段</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212843661.png" alt="image-20221026212843661"></p><h3 id="连接阶段-验证"><a href="#连接阶段-验证" class="headerlink" title="连接阶段-验证"></a>连接阶段-验证</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026212937615.png" alt="image-20221026212937615"></p><h3 id="连接阶段-准备"><a href="#连接阶段-准备" class="headerlink" title="连接阶段-准备"></a>连接阶段-准备</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026213004811.png" alt="image-20221026213004811"></p><p>&#x2F;&#x2F;1. n1 是实例属性, 不是静态变量，因此在准备阶段，是不会分配内存</p><p>&#x2F;&#x2F;2. n2 是静态变量，分配内存 n2 是默认初始化 0 ,而不是 20</p><p>&#x2F;&#x2F;3. n3 是 static final 是常量, 他和静态变量不一样, 因为一旦赋值就不变 n3 &#x3D; 30 </p><p>public int n1 &#x3D;10;</p><p>public static        int n2 &#x3D; 20; </p><p>public static final  int n3 &#x3D; 30;</p><h3 id="连接阶段-解析"><a href="#连接阶段-解析" class="headerlink" title="连接阶段-解析"></a>连接阶段-解析</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026213133110.png" alt="image-20221026213133110"></p><h3 id="初始化阶段"><a href="#初始化阶段" class="headerlink" title="初始化阶段"></a>初始化阶段</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221026213202827.png" alt="image-20221026213202827"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Class类</title>
+      <link href="/2022/10/25/Class%E7%B1%BB/"/>
+      <url>/2022/10/25/Class%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025104340497.png" alt="image-20221025104340497"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221025104349209.png" alt="image-20221025104349209"></p><h3 id="Class类的常用方法"><a href="#Class类的常用方法" class="headerlink" title="Class类的常用方法"></a>Class类的常用方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025104727866.png" alt="image-20221025104727866"></p><h3 id="案例代码"><a href="#案例代码" class="headerlink" title="案例代码"></a>案例代码</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221025104848.png" alt="微信截图_20221025104848"></p><h3 id="获取Class类对象"><a href="#获取Class类对象" class="headerlink" title="获取Class类对象"></a>获取Class类对象</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025105000964.png" alt="image-20221025105000964"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221025105008567.png" alt="image-20221025105008567"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221025105019092.png" alt="image-20221025105019092"></p><h3 id="哪些类型有Class对象"><a href="#哪些类型有Class对象" class="headerlink" title="哪些类型有Class对象"></a>哪些类型有Class对象</h3><p>下面类型都有Class对象</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221025105112101.png" alt="image-20221025105112101"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>反射机制</title>
+      <link href="/2022/10/25/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/"/>
+      <url>/2022/10/25/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Java-Reflection"><a href="#Java-Reflection" class="headerlink" title="Java Reflection"></a>Java Reflection</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025091932810.png" alt="image-20221025091932810"></p><h3 id="Java反射机制原理示意图"><a href="#Java反射机制原理示意图" class="headerlink" title="Java反射机制原理示意图"></a>Java反射机制原理示意图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025092005162.png" alt="image-20221025092005162"></p><h3 id="Java反射机制可以完成"><a href="#Java反射机制可以完成" class="headerlink" title="Java反射机制可以完成"></a>Java反射机制可以完成</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025092053083.png" alt="image-20221025092053083"></p><h3 id="Java反射相关的主要类"><a href="#Java反射相关的主要类" class="headerlink" title="Java反射相关的主要类"></a>Java反射相关的主要类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025092156529.png" alt="image-20221025092156529"></p><h3 id="案例代码"><a href="#案例代码" class="headerlink" title="案例代码"></a>案例代码</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221025092445.png" alt="微信截图_20221025092445"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221025092503.png" alt="微信截图_20221025092503"></p><h3 id="反射的优点和缺点"><a href="#反射的优点和缺点" class="headerlink" title="反射的优点和缺点"></a>反射的优点和缺点</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025094505811.png" alt="image-20221025094505811"></p><h3 id="反射的调用优化-关闭访问检查"><a href="#反射的调用优化-关闭访问检查" class="headerlink" title="反射的调用优化-关闭访问检查"></a>反射的调用优化-关闭访问检查</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221025094519872.png" alt="image-20221025094519872"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JDK的安装</title>
+      <link href="/2022/10/07/JDK%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/10/07/JDK%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/202210222038157.png" alt="image-20221022203847758"></p><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><p>为什么要配置环境变量</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040925.png" alt="image-20221022204008624"></p><p>配置环境变量path的步骤</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040410.png" alt="image-20221022204050239"></p>]]></content>
       
       
       <categories>
@@ -54,11 +354,11 @@
     
     
     <entry>
-      <title>JDK的安装</title>
-      <link href="/2022/10/07/JDK%E7%9A%84%E5%AE%89%E8%A3%85/"/>
-      <url>/2022/10/07/JDK%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+      <title>Java转义字符</title>
+      <link href="/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
+      <url>/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/202210222038157.png" alt="image-20221022203847758"></p><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><p>为什么要配置环境变量</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040925.png" alt="image-20221022204008624"></p><p>配置环境变量path的步骤</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040410.png" alt="image-20221022204050239"></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="Java常用的转义字符"><a href="#Java常用的转义字符" class="headerlink" title="Java常用的转义字符"></a>Java常用的转义字符</h3><p>在控制台，输入 tab 键，可以实现命令补全</p><p>\t  ：一个制表位，实现对齐的功能</p><p>\n  ：换行符</p><p>\  ：一个\</p><p>&quot;  :一个”</p><p>&#39;  ：一个’</p><p>\r  :一个回车 System.out.println(“韩顺平教育\r 北京”);</p>]]></content>
       
       
       <categories>
@@ -123,19 +423,6 @@
             <tag> Java概述 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/10/02/hello-world/"/>
-      <url>/2022/10/02/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
