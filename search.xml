@@ -4,6 +4,306 @@
   
     
     <entry>
+      <title>视图</title>
+      <link href="/2022/11/05/%E8%A7%86%E5%9B%BE/"/>
+      <url>/2022/11/05/%E8%A7%86%E5%9B%BE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105171518686.png" alt="image-20221105171518686"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221105171537291.png" alt="image-20221105171537291"></p><h3 id="视图的基本使用"><a href="#视图的基本使用" class="headerlink" title="视图的基本使用"></a>视图的基本使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105171600475.png" alt="image-20221105171600475"></p><h3 id="视图的细节"><a href="#视图的细节" class="headerlink" title="视图的细节"></a>视图的细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105171633907.png" alt="image-20221105171633907"></p><h3 id="案列演示"><a href="#案列演示" class="headerlink" title="案列演示"></a>案列演示</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221105171656.png" alt="微信截图_20221105171656"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221105171709.png" alt="微信截图_20221105171709"></p><h3 id="视图的最佳实践"><a href="#视图的最佳实践" class="headerlink" title="视图的最佳实践"></a>视图的最佳实践</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105193255041.png" alt="image-20221105193255041"></p><h4 id="案列"><a href="#案列" class="headerlink" title="案列"></a>案列</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221105193202.png" alt="微信截图_20221105193202"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql引擎</title>
+      <link href="/2022/11/05/mysql%E5%BC%95%E6%93%8E/"/>
+      <url>/2022/11/05/mysql%E5%BC%95%E6%93%8E/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Mysql表类型的存储引擎"><a href="#Mysql表类型的存储引擎" class="headerlink" title="Mysql表类型的存储引擎"></a>Mysql表类型的存储引擎</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105154304715.png" alt="image-20221105154304715"></p><h3 id="主要表类型-x2F-存储引擎的特点"><a href="#主要表类型-x2F-存储引擎的特点" class="headerlink" title="主要表类型&#x2F;存储引擎的特点"></a>主要表类型&#x2F;存储引擎的特点</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105154359199.png" alt="image-20221105154359199"></p><h3 id="细节说明"><a href="#细节说明" class="headerlink" title="细节说明"></a>细节说明</h3><p>重点给大家介绍三种: MyISAM、InnoDB、MEMORY</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221105154432512.png" alt="image-20221105154432512"></p><h3 id="如何选择表的存储引擎"><a href="#如何选择表的存储引擎" class="headerlink" title="如何选择表的存储引擎"></a>如何选择表的存储引擎</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105154513361.png" alt="image-20221105154513361"></p><h3 id="修改存储引擎"><a href="#修改存储引擎" class="headerlink" title="修改存储引擎"></a>修改存储引擎</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105154535052.png" alt="image-20221105154535052"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql事务</title>
+      <link href="/2022/11/04/mysql%E4%BA%8B%E5%8A%A1/"/>
+      <url>/2022/11/04/mysql%E4%BA%8B%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="事务的介绍"><a href="#事务的介绍" class="headerlink" title="事务的介绍"></a>事务的介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201155437.png" alt="image-20221104201155437"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201218043.png" alt="image-20221104201218043"></p><h3 id="事务和锁"><a href="#事务和锁" class="headerlink" title="事务和锁"></a>事务和锁</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201242888.png" alt="image-20221104201242888"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104201107.png" alt="微信截图_20221104201107"></p><h3 id="回退事务"><a href="#回退事务" class="headerlink" title="回退事务"></a>回退事务</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201330449.png" alt="image-20221104201330449"></p><h3 id="提交事务"><a href="#提交事务" class="headerlink" title="提交事务"></a>提交事务</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201402492.png" alt="image-20221104201402492"></p><h3 id="事务的讨论细节"><a href="#事务的讨论细节" class="headerlink" title="事务的讨论细节"></a>事务的讨论细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104201419725.png" alt="image-20221104201419725"></p><h3 id="事务的隔离级别介绍"><a href="#事务的隔离级别介绍" class="headerlink" title="事务的隔离级别介绍"></a>事务的隔离级别介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105091149686.png" alt="image-20221105091149686"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221105091233873.png" alt="image-20221105091233873"></p><h4 id="事务隔离级别"><a href="#事务隔离级别" class="headerlink" title="事务隔离级别"></a>事务隔离级别</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221105091314823.png" alt="image-20221105091314823"></p><h4 id="设置隔离级别"><a href="#设置隔离级别" class="headerlink" title="设置隔离级别"></a>设置隔离级别</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221105094123700.png" alt="image-20221105094123700"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221105094136443.png" alt="image-20221105094136443"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221105094145521.png" alt="image-20221105094145521"></p><h3 id="事务的ACID"><a href="#事务的ACID" class="headerlink" title="事务的ACID"></a>事务的ACID</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221105100007158.png" alt="image-20221105100007158"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql索引</title>
+      <link href="/2022/11/04/mysql%E7%B4%A2%E5%BC%95/"/>
+      <url>/2022/11/04/mysql%E7%B4%A2%E5%BC%95/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221104152942939.png" alt="image-20221104152942939"></p><h3 id="创建索引"><a href="#创建索引" class="headerlink" title="创建索引"></a>创建索引</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104153236.png" alt="微信截图_20221104153236"></p><h3 id="索引的原理"><a href="#索引的原理" class="headerlink" title="索引的原理"></a>索引的原理</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104155739599.png" alt="image-20221104155739599"></p><h3 id="索引的类型"><a href="#索引的类型" class="headerlink" title="索引的类型"></a>索引的类型</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104162607975.png" alt="image-20221104162607975"></p><h3 id="索引的创建演示"><a href="#索引的创建演示" class="headerlink" title="索引的创建演示"></a>索引的创建演示</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104164606.png" alt="微信截图_20221104164606"></h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_2022110415323611.png" alt="微信截图_2022110415323611"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104162711.png" alt="微信截图_20221104162711"></p><h3 id="哪些列上适合使用索引"><a href="#哪些列上适合使用索引" class="headerlink" title="哪些列上适合使用索引"></a>哪些列上适合使用索引</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104164926512.png" alt="image-20221104164926512"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL约束</title>
+      <link href="/2022/11/03/MySQL%E7%BA%A6%E6%9D%9F/"/>
+      <url>/2022/11/03/MySQL%E7%BA%A6%E6%9D%9F/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><img src="http://cdn.mafuhexo.cn/img/202211032247632.png" alt="image-20221103224700515"></p><h4 id="primary-key（主键约束）"><a href="#primary-key（主键约束）" class="headerlink" title="primary key（主键约束）"></a>primary key（主键约束）</h4><p><img src="http://cdn.mafuhexo.cn/img/202211032247067.png" alt="image-20221103224741974"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032248146.png" alt="image-20221103224805997"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032248452.png" alt="微信截图_20221103224822"></p><h4 id="not-null-非空"><a href="#not-null-非空" class="headerlink" title="not null(非空)"></a>not null(非空)</h4><p><img src="http://cdn.mafuhexo.cn/img/202211032250251.png" alt="image-20221103225012158"></p><h4 id="unique-唯一"><a href="#unique-唯一" class="headerlink" title="unique(唯一)"></a>unique(唯一)</h4><p><img src="http://cdn.mafuhexo.cn/img/202211032250556.png" alt="image-20221103225050428"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032251707.png" alt="image-20221103225107464"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032254217.png" alt="微信截图_20221103224822"></p><h4 id="foregin-key"><a href="#foregin-key" class="headerlink" title="foregin key"></a>foregin key</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221104134505466.png" alt="image-20221104134505466"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104134553.png" alt="微信截图_20221104134553"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221104134632.png" alt="微信截图_20221104134632"></p><h3 id="check约束"><a href="#check约束" class="headerlink" title="check约束"></a>check约束</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221104135429520.png" alt="image-20221104135429520"></p><h4 id="自增长"><a href="#自增长" class="headerlink" title="自增长"></a>自增长</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221104144718201.png" alt="image-20221104144718201"></p><h5 id="自增长使用细节"><a href="#自增长使用细节" class="headerlink" title="自增长使用细节"></a>自增长使用细节</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221104144858359.png" alt="image-20221104144858359"></p><h3 id="创建商品表练习"><a href="#创建商品表练习" class="headerlink" title="创建商品表练习"></a>创建商品表练习</h3><p><strong>– 使用约束的课堂练习</strong></p><p><strong>CREATE DATABASE shop_db;</strong></p><p><strong>– 现有一个商店的数据库shop_db，记录客户及其购物情况，由下面三个表组成：</strong><br><strong>– 商品goods（商品号goods_id，商品名goods_name，单价unitprice，商品类别category，</strong><br><strong>– 供应商provider);</strong><br><strong>– 客户customer（客户号customer_id,姓名name,住址address,电邮email性别sex,身份证card_Id);</strong><br><strong>– 购买purchase（购买订单号order_id，客户号customer_id,商品号goods_id,购买数量nums);</strong><br><strong>– 1 建表，在定义中要求声明 [进行合理设计]：</strong><br><strong>– (1)每个表的主外键；</strong><br><strong>– (2)客户的姓名不能为空值；</strong><br><strong>– (3)电邮不能够重复;</strong><br><strong>– (4)客户的性别[男|女] check 枚举..</strong><br><strong>– (5)单价unitprice 在 1.0 - 9999.99 之间 check</strong></p><p><strong>– 商品goods</strong><br><strong>CREATE TABLE goods (</strong><br>    <strong>goods_id INT PRIMARY KEY,</strong><br>    <strong>goods_name VARCHAR(64) NOT NULL DEFAULT ‘’,</strong><br>    <strong>unitprice DECIMAL(10,2) NOT NULL DEFAULT 0</strong><br>        <strong>CHECK (unitprice &gt;&#x3D; 1.0 AND unitprice &lt;&#x3D; 9999.99),</strong><br>    <strong>category INT NOT NULL DEFAULT 0,</strong><br>    <strong>provider VARCHAR(64) NOT NULL DEFAULT ‘’);</strong></p><hr><p><strong>– 客户customer（客户号customer_id,姓名name,住址address,电邮email性别sex,</strong><br><strong>– 身份证card_Id);</strong><br><strong>CREATE TABLE customer(</strong><br>    <strong>customer_id CHAR(8) PRIMARY KEY, – 程序员自己决定</strong><br>    <strong><code>name</code> VARCHAR(64) NOT NULL DEFAULT ‘’,</strong><br>    <strong>address VARCHAR(64) NOT NULL DEFAULT ‘’,</strong><br>    <strong>email VARCHAR(64) UNIQUE NOT NULL,</strong><br>    <strong>sex ENUM(‘男’,’女’) NOT NULL ,  – 这里老师使用的枚举类型, 是生效</strong><br>    <strong>card_Id CHAR(18));</strong> </p><hr><p><strong>– 购买purchase（购买订单号order_id，客户号customer_id,商品号goods_id,</strong><br><strong>– 购买数量nums);</strong><br><strong>CREATE TABLE purchase(</strong><br>    <strong>order_id INT UNSIGNED PRIMARY KEY,</strong><br>    <strong>customer_id CHAR(8) NOT NULL DEFAULT ‘’, – 外键约束在后</strong><br>    <strong>goods_id INT NOT NULL DEFAULT 0 , – 外键约束在后</strong><br>    <strong>nums INT NOT NULL DEFAULT 0,</strong><br>    <strong>FOREIGN KEY (customer_id) REFERENCES customer(customer_id),</strong><br>    <strong>FOREIGN KEY (goods_id) REFERENCES goods(goods_id));</strong><br><strong>DESC goods;</strong><br><strong>DESC customer;</strong><br><strong>DESC purchase;</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>左连接和右连接</title>
+      <link href="/2022/11/03/%E5%B7%A6%E8%BF%9E%E6%8E%A5%E5%92%8C%E5%8F%B3%E8%BF%9E%E6%8E%A5/"/>
+      <url>/2022/11/03/%E5%B7%A6%E8%BF%9E%E6%8E%A5%E5%92%8C%E5%8F%B3%E8%BF%9E%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<h3 id="外连接"><a href="#外连接" class="headerlink" title="外连接"></a>外连接</h3><p><img src="http://cdn.mafuhexo.cn/img/202211032205585.png" alt="image-20221103220541350"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032205984.png" alt="image-20221103220548815"></p><h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p><img src="http://cdn.mafuhexo.cn/img/202211032206999.png" alt="微信截图_20221103220635"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032207884.png" alt="微信截图_20221103220635"></p><p><img src="http://cdn.mafuhexo.cn/img/202211032208454.png" alt="微信截图_20221103220817"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>表的复制和去重复数据</title>
+      <link href="/2022/11/03/%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6%E5%92%8C%E5%8E%BB%E9%87%8D%E5%A4%8D%E6%95%B0%E6%8D%AE/"/>
+      <url>/2022/11/03/%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6%E5%92%8C%E5%8E%BB%E9%87%8D%E5%A4%8D%E6%95%B0%E6%8D%AE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="表的自我赋值和去重读记录"><a href="#表的自我赋值和去重读记录" class="headerlink" title="表的自我赋值和去重读记录"></a>表的自我赋值和去重读记录</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103192501.png" alt="微信截图_20221103192501"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103192548.png" alt="微信截图_20221103192548"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>多表查询</title>
+      <link href="/2022/11/01/%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/"/>
+      <url>/2022/11/01/%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221101180130117.png" alt="image-20221101180130117"></p><p><strong>小技巧：多表查询的条件不能少于 表的个数-1, 否则会出现笛卡尔集</strong></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101180756.png" alt="微信截图_20221101180756"></p><h3 id="自连接"><a href="#自连接" class="headerlink" title="自连接"></a>自连接</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221101183035320.png" alt="image-20221101183035320"></p><p>自连接的特点 1. 把同一张表当做两张表使用</p><p>–                    2. 需要给表取别名 表名 表别名</p><p>–                    3. 列名不明确，可以指定列的别名 列名 as 列的别名</p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101183012.png" alt="微信截图_20221101183012"></p><h3 id="子查询"><a href="#子查询" class="headerlink" title="子查询"></a>子查询</h3><h4 id="什么是子查询"><a href="#什么是子查询" class="headerlink" title="什么是子查询"></a>什么是子查询</h4><p>子查询是指嵌入在其它 sql 语句中的 select 语句,也叫嵌套查询</p><h4 id="单行子查询"><a href="#单行子查询" class="headerlink" title="单行子查询"></a>单行子查询</h4><p>单行子查询是指只返回一行数据的子查询语句</p><h4 id="多行子查询"><a href="#多行子查询" class="headerlink" title="多行子查询"></a>多行子查询</h4><p>多行子查询指返回多行数据的子查询  使用关键字 in</p><h4 id="案列"><a href="#案列" class="headerlink" title="案列"></a>案列</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221101200730.png" alt="微信截图_20221101200730"></p><h3 id="子查询当做临时表使用"><a href="#子查询当做临时表使用" class="headerlink" title="子查询当做临时表使用"></a>子查询当做临时表使用</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103113650.png" alt="微信截图_20221103113650"></p><h3 id="在多表子查询中使用ALL和ANY操作"><a href="#在多表子查询中使用ALL和ANY操作" class="headerlink" title="在多表子查询中使用ALL和ANY操作"></a>在多表子查询中使用ALL和ANY操作</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103113906.png" alt="微信截图_20221103113906"></p><h3 id="多列子查询使用案列"><a href="#多列子查询使用案列" class="headerlink" title="多列子查询使用案列"></a>多列子查询使用案列</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103124701.png" alt="微信截图_20221103124701"></p><h3 id="合并查询"><a href="#合并查询" class="headerlink" title="合并查询"></a>合并查询</h3><h4 id="union-all-就是将两个查询结果合并，不会去重复"><a href="#union-all-就是将两个查询结果合并，不会去重复" class="headerlink" title="union all 就是将两个查询结果合并，不会去重复"></a>union all 就是将两个查询结果合并，不会去重复</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103194152.png" alt="微信截图_20221103194152"></p><h4 id="uninon-就是将两个查询结果合并，会去重复"><a href="#uninon-就是将两个查询结果合并，会去重复" class="headerlink" title="uninon 就是将两个查询结果合并，会去重复"></a>uninon 就是将两个查询结果合并，会去重复</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221103194202.png" alt="微信截图_20221103194202"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分页查询</title>
+      <link href="/2022/10/31/%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2/"/>
+      <url>/2022/10/31/%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="分页查询"><a href="#分页查询" class="headerlink" title="分页查询"></a>分页查询</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221031175708214.png" alt="image-20221031175708214"></p><h3 id="公式推导："><a href="#公式推导：" class="headerlink" title="公式推导："></a>公式推导：</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221031175738.png" alt="微信截图_20221031175738"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>流程控制函数</title>
+      <link href="/2022/10/31/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%87%BD%E6%95%B0/"/>
+      <url>/2022/10/31/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h3 id="流程控制函数"><a href="#流程控制函数" class="headerlink" title="流程控制函数"></a>流程控制函数</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221031175454840.png" alt="image-20221031175454840"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加密函数</title>
+      <link href="/2022/10/31/%E5%8A%A0%E5%AF%86%E5%87%BD%E6%95%B0/"/>
+      <url>/2022/10/31/%E5%8A%A0%E5%AF%86%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h3 id="加密函数和系统函数"><a href="#加密函数和系统函数" class="headerlink" title="加密函数和系统函数"></a>加密函数和系统函数</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221031143340570.png" alt="image-20221031143340570"></p><h3 id="案列代码"><a href="#案列代码" class="headerlink" title="案列代码"></a>案列代码</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221031144803.png" alt="微信截图_20221031144803"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>时间相关函数</title>
+      <link href="/2022/10/31/%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%87%BD%E6%95%B0/"/>
+      <url>/2022/10/31/%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h3 id="时间日期相关函数"><a href="#时间日期相关函数" class="headerlink" title="时间日期相关函数"></a>时间日期相关函数</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221031134821011.png" alt="image-20221031134821011"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221031134954906.png" alt="image-20221031134954906"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221031135014312.png" alt="image-20221031135014312"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221031135033039.png" alt="image-20221031135033039"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221031135935.png" alt="微信截图_20221031135935"></p><h3 id="案列代码"><a href="#案列代码" class="headerlink" title="案列代码"></a>案列代码</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221031140035.png" alt="微信截图_20221031140035"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数学相关函数</title>
       <link href="/2022/10/30/%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3%E5%87%BD%E6%95%B0/"/>
       <url>/2022/10/30/%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3%E5%87%BD%E6%95%B0/</url>
@@ -105,8 +405,8 @@
     
     <entry>
       <title>CRUD操作</title>
-      <link href="/2022/10/30/CRUD%E6%93%8D%E4%BD%9C(1)/"/>
-      <url>/2022/10/30/CRUD%E6%93%8D%E4%BD%9C(1)/</url>
+      <link href="/2022/10/30/CRUD%E6%93%8D%E4%BD%9C/"/>
+      <url>/2022/10/30/CRUD%E6%93%8D%E4%BD%9C/</url>
       
         <content type="html"><![CDATA[<h3 id="数据库C-create-R-read-U-update-D-delete-语句"><a href="#数据库C-create-R-read-U-update-D-delete-语句" class="headerlink" title="数据库C[create]R[read]U[update]D[delete]语句"></a>数据库C[create]R[read]U[update]D[delete]语句</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132522698.png" alt="image-20221030132522698"></p><h3 id="Insert语句"><a href="#Insert语句" class="headerlink" title="Insert语句"></a>Insert语句</h3><h4 id="使用-INSERT-语句向表中插入数据。insert-sql"><a href="#使用-INSERT-语句向表中插入数据。insert-sql" class="headerlink" title="使用 INSERT 语句向表中插入数据。insert.sql"></a>使用 INSERT 语句向表中插入数据。insert.sql</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132416672.png" alt="image-20221030132416672"></p><h4 id="细节说明"><a href="#细节说明" class="headerlink" title="细节说明"></a>细节说明</h4><p>   1.插入的数据应与字段的数据类型相同。</p><ol start="2"><li><p>数据的长度应在列的规定范围内，例如：不能将一个长度为 80 的字符串加入到长度为 40 的列中。</p></li><li><p>在 values 中列出的数据位置必须与被加入的列的排列位置相对应。</p></li><li><p>字符和日期型数据应包含在单引号中。</p></li><li><p>列可以插入空值[前提是该字段允许为空]，insert into table value(null) </p></li><li><p>insert into tab_name (列名..)  values (),(),()    形式添加多条记录</p></li><li><p>如果是给表中的所有字段添加数据，可以不写前面的字段名称</p></li><li><p>默认值的使用，当不给某个字段值时，如果有默认值就会添加默认值，否则报错</p></li></ol><p>   – 如果某个列 没有指定 not null ,那么当添加数据时，没有给定值，则会默认给 null</p><p>   – 如果我们希望指定某个列的默认值，可以在创建表时指定</p><h3 id="Update语句"><a href="#Update语句" class="headerlink" title="Update语句"></a>Update语句</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132714062.png" alt="image-20221030132714062"></p><h4 id="使用细节"><a href="#使用细节" class="headerlink" title="使用细节"></a>使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132738252.png" alt="image-20221030132738252"></p><h3 id="Delete语句"><a href="#Delete语句" class="headerlink" title="Delete语句"></a>Delete语句</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132851385.png" alt="image-20221030132851385"></p><h4 id="使用细节-1"><a href="#使用细节-1" class="headerlink" title="使用细节"></a>使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030132913228.png" alt="image-20221030132913228"></p><h3 id="Select语句"><a href="#Select语句" class="headerlink" title="Select语句"></a>Select语句</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221030142537667.png" alt="image-20221030142537667"></p><p>注意事项</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221030142635679.png" alt="image-20221030142635679"></p><h4 id="使用表达式对查询的列进行计算"><a href="#使用表达式对查询的列进行计算" class="headerlink" title="使用表达式对查询的列进行计算"></a>使用表达式对查询的列进行计算</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030142722278.png" alt="image-20221030142722278">– 查询每个学生的总成绩<br>SELECT <code>name</code>,(chinese+english+math) FROM student;</p><h4 id="在select语句中使用as语句"><a href="#在select语句中使用as语句" class="headerlink" title="在select语句中使用as语句"></a>在select语句中使用as语句</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030142812319.png" alt="image-20221030142812319"></p><h4 id="where字句中经常使用的运算符"><a href="#where字句中经常使用的运算符" class="headerlink" title="where字句中经常使用的运算符"></a>where字句中经常使用的运算符</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030142844245.png" alt="image-20221030142844245"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221030143031.png" alt="微信截图_20221030143031"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221030143049.png" alt="微信截图_20221030143049"></p><h4 id="使用order-by-字句进行排序"><a href="#使用order-by-字句进行排序" class="headerlink" title="使用order by 字句进行排序"></a>使用order by 字句进行排序</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221030144532446.png" alt="image-20221030144532446"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221030144603.png" alt="微信截图_20221030144603"></p>]]></content>
       
@@ -429,6 +729,31 @@
     
     
     <entry>
+      <title>Java转义字符</title>
+      <link href="/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
+      <url>/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Java常用的转义字符"><a href="#Java常用的转义字符" class="headerlink" title="Java常用的转义字符"></a>Java常用的转义字符</h3><p>在控制台，输入 tab 键，可以实现命令补全</p><p>\t  ：一个制表位，实现对齐的功能</p><p>\n  ：换行符</p><p>\  ：一个\</p><p>&quot;  :一个”</p><p>&#39;  ：一个’</p><p>\r  :一个回车 System.out.println(“韩顺平教育\r 北京”);</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaSe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java概述 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java开发注意事项和细节</title>
       <link href="/2022/10/07/Java%E5%BC%80%E5%8F%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E5%92%8C%E7%BB%86%E8%8A%82/"/>
       <url>/2022/10/07/Java%E5%BC%80%E5%8F%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E5%92%8C%E7%BB%86%E8%8A%82/</url>
@@ -459,31 +784,6 @@
       <url>/2022/10/07/JDK%E7%9A%84%E5%AE%89%E8%A3%85/</url>
       
         <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/202210222038157.png" alt="image-20221022203847758"></p><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><p>为什么要配置环境变量</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040925.png" alt="image-20221022204008624"></p><p>配置环境变量path的步骤</p><p><img src="https://cdn.mafuhexo.cn/img/202210222040410.png" alt="image-20221022204050239"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> JavaSe </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java概述 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Java转义字符</title>
-      <link href="/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
-      <url>/2022/10/07/Java%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Java常用的转义字符"><a href="#Java常用的转义字符" class="headerlink" title="Java常用的转义字符"></a>Java常用的转义字符</h3><p>在控制台，输入 tab 键，可以实现命令补全</p><p>\t  ：一个制表位，实现对齐的功能</p><p>\n  ：换行符</p><p>\  ：一个\</p><p>&quot;  :一个”</p><p>&#39;  ：一个’</p><p>\r  :一个回车 System.out.println(“韩顺平教育\r 北京”);</p>]]></content>
       
       
       <categories>
