@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>进制转换</title>
-      <link href="/2022/11/09/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
-      <url>/2022/11/09/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</url>
+      <title>分支控制</title>
+      <link href="/2022/11/11/%E5%88%86%E6%94%AF%E6%8E%A7%E5%88%B6/"/>
+      <url>/2022/11/11/%E5%88%86%E6%94%AF%E6%8E%A7%E5%88%B6/</url>
       
-        <content type="html"><![CDATA[<h6 id="二进制转换十进制："><a href="#二进制转换十进制：" class="headerlink" title="二进制转换十进制："></a>二进制转换十进制：</h6><p>从后面第一位开始乘以2的位数-1次方，依次相加每一位。<br>        0b110001100 &#x3D; 0<em>2^0 + 0</em>2^1 + 1<em>2^2 + 1</em>2^3 + 0<em>2^4 + 0</em>2^5 + 0<em>2^6 +1</em>2^7 +1*2^8<br>           &#x3D; 0 + 0 + 4 + 8 + 0 + 0 + 0 + 128 + 256<br>           &#x3D; 396</p><h6 id="八进制转换十进制："><a href="#八进制转换十进制：" class="headerlink" title="八进制转换十进制："></a>八进制转换十进制：</h6><p>从后面第一位开始乘以8的位数-1次方，依次相加每一位。<br>        02456 &#x3D; 6<em>8^0 + 5</em>8^1 + 4<em>8^2 + 2</em>8^3<br>     &#x3D; 6 + 40 + 256 + 1024<br>     &#x3D; 1326</p><h6 id="十六进制转换十进制："><a href="#十六进制转换十进制：" class="headerlink" title="十六进制转换十进制："></a>十六进制转换十进制：</h6><p>从后面第一位开始乘以16的位数-1次方，依次相加每一位。<br>        0xA45 &#x3D; 5<em>16^0 + 4</em>16^1 + 10*16^2<br>         &#x3D; 5 + 64 + 2560<br>         &#x3D; 2629</p><h6 id="十进制转二进制："><a href="#十进制转二进制：" class="headerlink" title="十进制转二进制："></a>十进制转二进制：</h6><p>将该数不断除以2，知道商为0为止，然后将每步得到的于数倒过来，就是对应的二进制。0B开头</p><h6 id="十进制转八进制："><a href="#十进制转八进制：" class="headerlink" title="十进制转八进制："></a>十进制转八进制：</h6><p>将该数不断除以8，知道商为0为止，然后将每步得到的于数倒过来，就是对应的八进制。0开头</p><h6 id="十进制转十六进制："><a href="#十进制转十六进制：" class="headerlink" title="十进制转十六进制："></a>十进制转十六进制：</h6><p>将该数不断除以16，知道商为0为止，然后将每步得到的于数倒过来，就是对应的十六进制。0x开头</p><h6 id="二进制转八进制："><a href="#二进制转八进制：" class="headerlink" title="二进制转八进制："></a>二进制转八进制：</h6><p>从低位开始，将二进制数每三位一组，按二进制转十进制的方法算出数字再组合起来就是八进制。</p><h6 id="二进制转十六进制："><a href="#二进制转十六进制：" class="headerlink" title="二进制转十六进制："></a>二进制转十六进制：</h6><p>从低位开始，将二进制数每四位一组，按二进制转十进制的方法算出数字再组合起来就是十六进制。</p><h6 id="八进制转二进制："><a href="#八进制转二进制：" class="headerlink" title="八进制转二进制："></a>八进制转二进制：</h6><p>将八进制的每一个数，转成对应的一个3位的二进制数即可</p><h6 id="十六进制转二进制："><a href="#十六进制转二进制：" class="headerlink" title="十六进制转二进制："></a>十六进制转二进制：</h6><p>将十六进制的每一个数，转成对应的一个4位的二进制数即可</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="分支控制-if-else"><a href="#分支控制-if-else" class="headerlink" title="分支控制 if-else"></a>分支控制 if-else</h3><p><strong>让程序有选择的的执行,分支控制有三种</strong></p><h5 id="单分支-if"><a href="#单分支-if" class="headerlink" title="单分支 if"></a>单分支 if</h5><p><img src="http://cdn.mafuhexo.cn/img/202211112244436.png" alt="image-20221111224453301"></p><p><img src="http://cdn.mafuhexo.cn/img/202211112245454.png" alt="image-20221111224555374"></p><h5 id="双分支-if-else"><a href="#双分支-if-else" class="headerlink" title="双分支 if-else"></a>双分支 if-else</h5><p><img src="http://cdn.mafuhexo.cn/img/202211112246701.png" alt="image-20221111224607584"></p><p><img src="http://cdn.mafuhexo.cn/img/202211112246818.png" alt="image-20221111224641727"></p><h5 id="多分支-if-else-if-…-else"><a href="#多分支-if-else-if-…-else" class="headerlink" title="多分支 if-else if -….-else"></a>多分支 if-else if -….-else</h5><p><img src="http://cdn.mafuhexo.cn/img/202211112247259.png" alt="image-20221111224711157"></p><h6 id="多分支的流程图"><a href="#多分支的流程图" class="headerlink" title="多分支的流程图"></a>多分支的流程图</h6><p><img src="http://cdn.mafuhexo.cn/img/202211112247619.png" alt="image-20221111224750479"></p><h3 id="嵌套分支"><a href="#嵌套分支" class="headerlink" title="嵌套分支"></a>嵌套分支</h3><p><strong>在一个分支结构中又完整的嵌套了另一个完整的分支结构，里面的分支的结构称为内层分支外面的分支结构称为外层分支。</strong></p><p><img src="http://cdn.mafuhexo.cn/img/202211112248659.png" alt="image-20221111224837613"></p>]]></content>
       
       
       <categories>
@@ -20,7 +20,432 @@
       
         <tags>
             
-            <tag> 变量 </tag>
+            <tag> java控制结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>顺序控制</title>
+      <link href="/2022/11/11/%E9%A1%BA%E5%BA%8F%E6%8E%A7%E5%88%B6/"/>
+      <url>/2022/11/11/%E9%A1%BA%E5%BA%8F%E6%8E%A7%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://cdn.mafuhexo.cn/img/202211112242411.png" alt="image-20221111224245278"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java控制结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>原码反码补码</title>
+      <link href="/2022/11/11/%E5%8E%9F%E7%A0%81%E5%8F%8D%E7%A0%81%E8%A1%A5%E7%A0%81/"/>
+      <url>/2022/11/11/%E5%8E%9F%E7%A0%81%E5%8F%8D%E7%A0%81%E8%A1%A5%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://cdn.mafuhexo.cn/img/202211112204696.png" alt="image-20221111220403568"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>位移运算符</title>
+      <link href="/2022/11/11/%E4%BD%8D%E7%A7%BB%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E4%BD%8D%E7%A7%BB%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://cdn.mafuhexo.cn/img/202211112207234.png" alt="image-20221111220751133"></p><h4 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h4><p><img src="http://cdn.mafuhexo.cn/img/202211112214670.png" alt="微信截图_20221111221227"></p><p><img src="http://cdn.mafuhexo.cn/img/202211112213498.png" alt="微信截图_20221111221241"></p><p><strong>算术右移 &gt;&gt;：低位溢出,符号位不变,并用符号位补溢出的高位</strong></p><p><strong>算术左移 &lt;&lt;: 符号位不变,低位补 0</strong></p><p><strong>(&gt;&gt;&gt;) 逻辑右移也叫无符号右移,运算规则是: 低位溢出，高位补 0</strong></p><p><strong>特别说明：没有 &lt;&lt;&lt; 符号</strong></p><p><strong>int a&#x3D;1&gt;&gt;2; &#x2F;&#x2F;1 &#x3D;&gt; 00000001 &#x3D;&gt; 00000000 本质 1 &#x2F;  2 &#x2F; 2 &#x3D;0</strong></p><p><strong>int c&#x3D;1&lt;&lt;2; &#x2F;&#x2F;1 &#x3D;&gt; 00000001 &#x3D;&gt; 00000100 本质 1 * 2 * 2 &#x3D; 4</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标识符</title>
+      <link href="/2022/11/11/%E6%A0%87%E8%AF%86%E7%AC%A6/"/>
+      <url>/2022/11/11/%E6%A0%87%E8%AF%86%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="标识符的命名规则"><a href="#标识符的命名规则" class="headerlink" title="标识符的命名规则"></a>标识符的命名规则</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111210614677.png" alt="image-20221111210614677"></p><h3 id="标识符的命名规范"><a href="#标识符的命名规范" class="headerlink" title="标识符的命名规范"></a>标识符的命名规范</h3><ol><li>包名：多单词组成时所有字母都小写：aaa.bbb.ccc &#x2F;&#x2F;比如 com.hsp.crm</li><li>类名、接口名：多单词组成时，所有单词的首字母大写：XxxYyyZzz [大驼峰]。比如： TankShotGame</li><li>变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写：xxxYyyZzz [小驼峰， 简称 驼峰法] ，比如： tankShotGame</li><li>常量名：所有字母都大写。多单词时每个单词用下划线连接：XXX_YYY_ZZZ 比如 ：定义一个所得税率 TAX_RATE</li><li>后面我们学习到 类，包，接口，等时，我们的命名规范要这样遵守,更加详细的看文档.</li></ol><h3 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h3><p><strong>定义：被 Java 语言赋予了特殊含义，用做专门用途的字符串（单词）</strong> </p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111211301915.png" alt="image-20221111211301915"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111211243776.png" alt="image-20221111211243776"></p><h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><p><strong>Java 保留字：现有 Java 版本尚未使用，但以后版本可能会作为关键字使用。自己命名标识符时要避免使用这些保留字 byValue、cast、future、 generic、 inner、 operator、 outer、 rest、 var 、 goto 、const</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java算术运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运算符优先级</title>
+      <link href="/2022/11/11/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7/"/>
+      <url>/2022/11/11/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<p><strong>运算符有不同的优先级，所谓优先级就是表达式运算中的运算顺序。如右表，上一行运算符总优先于下一行。只有单目运算符、赋值运算符是从右向左运算的。</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111210233034.png" alt="image-20221111210233034"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三元运算符</title>
+      <link href="/2022/11/11/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p><strong>条件表达式 ? 表达式 1: 表达式 2;</strong></p><h4 id="运算规则："><a href="#运算规则：" class="headerlink" title="运算规则："></a>运算规则：</h4><p><strong>如果条件表达式为 true，运算后的结果是表达式 1；</strong></p><p><strong>如果条件表达式为 false，运算后的结果是表达式 2；</strong></p><p> <strong>口诀: [一灯大师：一真大师]</strong></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111190736.png" alt="微信截图_20221111190736"></p><h4 id="使用细节"><a href="#使用细节" class="headerlink" title="使用细节"></a>使用细节</h4><ol><li>表达式 1 和表达式 2 要为可以赋给接收变量的类型(或可以自动转换)</li><li>三元运算符可以转成 if–else 语句</li></ol><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111205824.png" alt="微信截图_20221111205824"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赋值运算符</title>
+      <link href="/2022/11/11/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="赋值运算符的分类"><a href="#赋值运算符的分类" class="headerlink" title="赋值运算符的分类"></a>赋值运算符的分类</h3><p> <strong>基本赋值运算符 &#x3D;   int a &#x3D; 10;</strong></p><p> <strong>复合赋值运算符</strong></p><p><em><em>+&#x3D; ，-&#x3D; ，</em>&#x3D; ， &#x2F;&#x3D; ，%&#x3D; 等 , 重点讲解一个 +&#x3D; :</em>*</p><p><strong>a +&#x3D; b;  [等价 a &#x3D; a + b; ]</strong></p><p> <strong>a -&#x3D; b; [等价 a &#x3D; a - b; ]</strong></p><h4 id="赋值运算符的特点"><a href="#赋值运算符的特点" class="headerlink" title="赋值运算符的特点"></a>赋值运算符的特点</h4><ol><li>运算顺序从右往左  int  num &#x3D;  a + b + c;</li><li>赋值运算符的左边 只能是变量,右边 可以是变量、表达式、常量值。int num &#x3D; 20; int num2&#x3D; 78 * 34 - 10; int num3 &#x3D; a;</li><li>复合赋值运算符等价于下面的效果比如：a+&#x3D;3;等价于 a&#x3D;a+3; 其他类推</li><li>复合赋值运算符会进行类型转换。byte b &#x3D; 2; b+&#x3D;3; b++;</li></ol><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111190047.png" alt="微信截图_20221111190047"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逻辑运算符</title>
+      <link href="/2022/11/11/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p><strong>用于连接多个条件（多个关系表达式），最终的结果也是一个 boolean 值。</strong></p><h3 id="逻辑运算符一览"><a href="#逻辑运算符一览" class="headerlink" title="逻辑运算符一览"></a>逻辑运算符一览</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111183915178.png" alt="image-20221111183915178"></p><h5 id="说明逻辑运算规则："><a href="#说明逻辑运算规则：" class="headerlink" title="说明逻辑运算规则："></a>说明逻辑运算规则：</h5><ol><li>a&amp;b : &amp; 叫逻辑与：规则：当 a 和 b 同时为 true ,则结果为 true, 否则为 false</li><li>a&amp;&amp;b : &amp;&amp; 叫短路与：规则：当 a 和 b 同时为 true ,则结果为 true,否则为 false</li><li>a|b : | 叫逻辑或，规则：当 a 和 b ，有一个为 true ,则结果为 true,否则为 false</li><li>a||b : || 叫短路或，规则：当 a 和 b ，有一个为 true ,则结果为 true,否则为 false</li><li>!a : 叫取反，或者非运算。当 a 为 true, 则结果为 false, 当 a 为 false 是，结果为 true</li><li>a^b: 叫逻辑异或，当 a 和 b 不同时，则结果为 true, 否则为 false</li></ol><h4 id="amp-amp-和-amp-基本规则"><a href="#amp-amp-和-amp-基本规则" class="headerlink" title="&amp;&amp; 和 &amp; 基本规则"></a>&amp;&amp; 和 &amp; 基本规则</h4><p><strong>名称                语法                           特点</strong></p><p><strong>短路与&amp;&amp;         条件 1&amp;&amp;条件 2         两个条件都为 true，结果为 true,否则 false</strong></p><p><strong>逻辑与&amp;          条件 1&amp;条件 2             两个条件都为 true，结果为 true,否则 false</strong></p><h5 id="amp-amp-和-amp-使用区别"><a href="#amp-amp-和-amp-使用区别" class="headerlink" title="&amp;&amp;  和 &amp; 使用区别"></a>&amp;&amp;  和 &amp; 使用区别</h5><p> <strong>&amp;&amp;短路与：如果第一个条件为 false，则第二个条件不会判断，最终结果为 false，效率高</strong></p><p><strong>&amp; 逻辑与：不管第一个条件是否为 false，第二个条件都要判断，效率低</strong></p><p><strong>开发中， 我们使用的基本是使用短路与&amp;&amp;, 效率高</strong></p><h4 id="和-使用区别"><a href="#和-使用区别" class="headerlink" title="|| 和 | 使用区别"></a>|| 和 | 使用区别</h4><p><strong>||短路或：如果第一个条件为 true，则第二个条件不会判断，最终结果为 true，效率高</strong></p><p><strong>| 逻辑或：不管第一个条件是否为 true，第二个条件都要判断，效率低</strong></p><p><strong>开发中，我们基本使用 ||</strong></p><h4 id="！取反基本规则"><a href="#！取反基本规则" class="headerlink" title="！取反基本规则"></a>！取反基本规则</h4><p><strong>! 非（取反）  !条件    如果条件本身成立，结果为 false，否则为 true</strong></p><h4 id="异或规则"><a href="#异或规则" class="headerlink" title="^异或规则"></a>^异或规则</h4><p><strong>a^b: 叫逻辑异或，当 a 和 b 不同时，则结果为 true, 否则为 false</strong></p><p><strong>^逻辑异或，System.out.println( (4 &lt; 1) ^ (6 &gt; 3) ); &#x2F;&#x2F; true</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关系运算符</title>
+      <link href="/2022/11/11/%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p> <strong>关系运算符的结果都是 boolean 型，也就是要么是 true，要么是 false关系表达式， 经常用在 if 结构的条件中或循环结构的条件中</strong></p><h3 id="关系运算符一览"><a href="#关系运算符一览" class="headerlink" title="关系运算符一览"></a>关系运算符一览</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111183409280.png" alt="image-20221111183409280"></p><h4 id="细节说明"><a href="#细节说明" class="headerlink" title="细节说明"></a>细节说明</h4><p><strong>关系运算符的结果都是 boolean 型，也就是要么是 true，要么是 false。</strong></p><p><strong>关系运算符组成的表达式，我们称为关系表达式。 a &gt; b</strong></p><p><strong>比较运算符”&#x3D;&#x3D;”不能误写成”&#x3D;”</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算术运算符</title>
+      <link href="/2022/11/11/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2022/11/11/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p><strong>算术运算符是对数值类型的变量进行运算的，在 Java 程序中使用的非常多。</strong></p><h3 id="算术运算符一览"><a href="#算术运算符一览" class="headerlink" title="算术运算符一览"></a>算术运算符一览</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111180543700.png" alt="image-20221111180543700"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111180703845.png" alt="image-20221111180703845"></p><h4 id="细节使用"><a href="#细节使用" class="headerlink" title="细节使用"></a>细节使用</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111182809688.png" alt="image-20221111182809688"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111180807.png" alt="微信截图_20221111180807"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111180815.png" alt="微信截图_20221111180815"></p><h4 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111182926406.png" alt="image-20221111182926406"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>String和基本类型转换</title>
+      <link href="/2022/11/11/String%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2022/11/11/String%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍和使用"><a href="#介绍和使用" class="headerlink" title="介绍和使用"></a>介绍和使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111172555110.png" alt="image-20221111172555110"></p><p><strong>注意：在 将 String 类型转成 基本数据类型时确保String类型是能够转换成有效的数据，比如 我们可以把 “123” , 转成一个整数，但是不能把 “hello” 转成一个整数，如果格式不正确，就会抛出异常，程序就会终止，</strong></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111175626.png" alt="微信截图_20221111175626"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基本数据类型转换</title>
+      <link href="/2022/11/11/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E8%A1%8C/"/>
+      <url>/2022/11/11/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E8%A1%8C/</url>
+      
+        <content type="html"><![CDATA[<h3 id="自动类型转换"><a href="#自动类型转换" class="headerlink" title="自动类型转换"></a>自动类型转换</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111164147510.png" alt="image-20221111164147510"></p><h4 id="自动类型转换使用细节"><a href="#自动类型转换使用细节" class="headerlink" title="自动类型转换使用细节"></a>自动类型转换使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111164353946.png" alt="image-20221111164353946"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111165605.png" alt="微信截图_20221111165605"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111165927.png" alt="微信截图_20221111165927"></p><h3 id="强制类型转换"><a href="#强制类型转换" class="headerlink" title="强制类型转换"></a>强制类型转换</h3><p><strong>自动类型转换的逆过程，将容量大的数据类型转换为容量小的数据类型。使用时要加上强制转换符 ( )，但可能造成精度降低或溢出,格外要注意</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111171624483.png" alt="image-20221111171624483"></p><h4 id="强制类型转换细节"><a href="#强制类型转换细节" class="headerlink" title="强制类型转换细节"></a>强制类型转换细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111171648114.png" alt="image-20221111171648114"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据类型</title>
+      <link href="/2022/11/11/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+      <url>/2022/11/11/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<p><strong>每一种数据都定义了明确的数据类型，在内存中分配了不同大小的内存空间(字节)。</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111133311070.png" alt="image-20221111133311070"></p><h3 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h3><p><strong>Java 的整数类型就是用于存放整数值的，比如 12 , 30, 3456 等等</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111134410615.png" alt="image-20221111134410615"></p><h4 id="整数型的使用细节"><a href="#整数型的使用细节" class="headerlink" title="整数型的使用细节"></a>整数型的使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111134433437.png" alt="image-20221111134433437"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111140627642.png" alt="image-20221111140627642"></p><h3 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h3><p><strong>Java 的浮点类型可以表示一个小数，比如 123.4 ，7.8 ，0.12 等等</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111140741924.png" alt="image-20221111140741924"></p><p> <strong>关于浮点数在机器中存放形式的简单说明,浮点数&#x3D;符号位+指数位+尾数位</strong></p><p> <strong>尾数部分可能丢失，造成精度损失(小数都是近似值)。</strong></p><h4 id="浮点类型的使用细节"><a href="#浮点类型的使用细节" class="headerlink" title="浮点类型的使用细节"></a>浮点类型的使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111140905666.png" alt="image-20221111140905666"></p><h3 id="字符类型"><a href="#字符类型" class="headerlink" title="字符类型"></a>字符类型</h3><p><strong>字符类型可以表示单个字符,字符类型是 char，char 是两个字节(可以存放汉字)，多个字符我们用字符串 String(我们后面详细讲解 String)</strong></p><h4 id="字符类型使用细节"><a href="#字符类型使用细节" class="headerlink" title="字符类型使用细节"></a>字符类型使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221111143411122.png" alt="image-20221111143411122"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221111161341.png" alt="微信截图_20221111161341"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221111161532917.png" alt="image-20221111161532917"></p><h4 id="编码介绍"><a href="#编码介绍" class="headerlink" title="编码介绍"></a>编码介绍</h4><h5 id="ASCII编码"><a href="#ASCII编码" class="headerlink" title="ASCII编码"></a>ASCII编码</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221111162742888.png" alt="image-20221111162742888"></p><h5 id="Unicode编码"><a href="#Unicode编码" class="headerlink" title="Unicode编码"></a>Unicode编码</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221111162817359.png" alt="image-20221111162817359"></p><h5 id="UTF-8编码"><a href="#UTF-8编码" class="headerlink" title="UTF-8编码"></a>UTF-8编码</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221111162937107.png" alt="image-20221111162937107"></p><h3 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221111163002607.png" alt="image-20221111163002607"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加号的使用</title>
+      <link href="/2022/11/10/%E5%8A%A0%E5%8F%B7%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/11/10/%E5%8A%A0%E5%8F%B7%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="程序中-号的使用"><a href="#程序中-号的使用" class="headerlink" title="程序中+号的使用"></a>程序中+号的使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221110225332957.png" alt="image-20221110225332957"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>变量的概念及细节</title>
+      <link href="/2022/11/10/%E5%8F%98%E9%87%8F%E7%9A%84%E6%A6%82%E5%BF%B5%E5%8F%8A%E7%BB%86%E8%8A%82/"/>
+      <url>/2022/11/10/%E5%8F%98%E9%87%8F%E7%9A%84%E6%A6%82%E5%BF%B5%E5%8F%8A%E7%BB%86%E8%8A%82/</url>
+      
+        <content type="html"><![CDATA[<h3 id="变量是程序的基本组成单位"><a href="#变量是程序的基本组成单位" class="headerlink" title="变量是程序的基本组成单位"></a>变量是程序的基本组成单位</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221110222812389.png" alt="image-20221110222812389"></p><h3 id="简单的原理示意图"><a href="#简单的原理示意图" class="headerlink" title="简单的原理示意图"></a>简单的原理示意图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221110223542084.png" alt="image-20221110223542084"></p><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p><strong>变量相当于内存中一个数据存储空间的表示，你可以把变量看做是一个房间的门牌号，通过门牌号我们可以找到房间，而通过变量名可以访问到变量(值)。</strong></p><h3 id="变量使用的基本步骤"><a href="#变量使用的基本步骤" class="headerlink" title="变量使用的基本步骤"></a>变量使用的基本步骤</h3><p><strong>第一步声明变量   int a;，第二步赋值  a &#x3D; 60; &#x2F;&#x2F;应该这么说: 把 60 赋给 a</strong></p><h3 id="变量使用注意事项"><a href="#变量使用注意事项" class="headerlink" title="变量使用注意事项"></a>变量使用注意事项</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221110223640732.png" alt="image-20221110223640732"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BasicDao的编程</title>
+      <link href="/2022/11/10/BasicDao%E7%9A%84%E7%BC%96%E7%A8%8B/"/>
+      <url>/2022/11/10/BasicDao%E7%9A%84%E7%BC%96%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="为什么要使用BasicDao"><a href="#为什么要使用BasicDao" class="headerlink" title="为什么要使用BasicDao"></a>为什么要使用BasicDao</h3><p><img src="http://cdn.mafuhexo.cn/img/202211102145209.png" alt="image-20221110214508024"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102145684.png" alt="image-20221110214517608"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102145024.png" alt="image-20221110214524940"></p><h3 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h3><p><img src="http://cdn.mafuhexo.cn/img/202211102146311.png" alt="image-20221110214605136"></p><h3 id="BasicDao应用实例"><a href="#BasicDao应用实例" class="headerlink" title="BasicDao应用实例"></a>BasicDao应用实例</h3><p><img src="http://cdn.mafuhexo.cn/img/202211102146475.png" alt="image-20221110214633382"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102151087.png" alt="微信截图_20221110215025"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102151099.png" alt="微信截图_20221110215038"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102151548.png" alt="微信截图_20221110215047"></p><p><img src="http://cdn.mafuhexo.cn/img/202211102151463.png" alt="微信截图_20221110215056"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DAO数据访问对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>进制转换</title>
+      <link href="/2022/11/09/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2022/11/09/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="进制介绍"><a href="#进制介绍" class="headerlink" title="进制介绍"></a>进制介绍</h3><p><strong>对于整数，有四种表示方式：</strong></p><p><strong>二进制：0,1 ，满 2 进 1.以 0b 或 0B 开头。十进制：0-9 ，满 10 进 1。</strong></p><p><strong>八进制：0-7 ，满 8 进 1. 以数字 0 开头表示。</strong></p><p><strong>十六进制：0-9 及 A(10)-F(15)，满 16 进 1. 以 0x 或 0X 开头表示。此处的 A-F 不区分大小写。</strong></p><h3 id="进制的图示"><a href="#进制的图示" class="headerlink" title="进制的图示"></a>进制的图示</h3><p><img src="http://cdn.mafuhexo.cn/img/202211112149281.png" alt="image-20221111214915135"></p><p><img src="http://cdn.mafuhexo.cn/img/202211112150096.png" alt="image-20221111215004010"></p><h3 id="进制的换行"><a href="#进制的换行" class="headerlink" title="进制的换行"></a>进制的换行</h3><h4 id="二进制转换十进制："><a href="#二进制转换十进制：" class="headerlink" title="二进制转换十进制："></a>二进制转换十进制：</h4><p>从后面第一位开始乘以2的位数-1次方，依次相加每一位。<br>        0b110001100 &#x3D; 0×2^0 + 0×<em>2^1 + 1</em>×2^2 + 1×<em>2^3 + 0</em>×2^4 + 0×<em>2^5 + 0</em>×2^6 +1×<em>2^7 +1</em>×2^8<br>           &#x3D; 0 + 0 + 4 + 8 + 0 + 0 + 0 + 128 + 256<br>           &#x3D; 396</p><p><img src="http://cdn.mafuhexo.cn/img/202211112152617.png" alt="image-20221111215229556"></p><h4 id="八进制转换十进制："><a href="#八进制转换十进制：" class="headerlink" title="八进制转换十进制："></a>八进制转换十进制：</h4><p>从后面第一位开始乘以8的位数-1次方，依次相加每一位。<br>        02456 &#x3D; 6×<em>8^0 + 5</em>×8^1 + 4×<em>8^2 + 2</em>×8^3<br>     &#x3D; 6 + 40 + 256 + 1024<br>     &#x3D; 1326</p><p><img src="http://cdn.mafuhexo.cn/img/202211112152083.png" alt="image-20221111215248025"></p><h4 id="十六进制转换十进制："><a href="#十六进制转换十进制：" class="headerlink" title="十六进制转换十进制："></a>十六进制转换十进制：</h4><p>从后面第一位开始乘以16的位数-1次方，依次相加每一位。<br>        0xA45 &#x3D; 5×<em>16^0 + 4</em>×16^1 + 10×16^2<br>         &#x3D; 5 + 64 + 2560<br>         &#x3D; 2629</p><h4 id="十进制转二进制："><a href="#十进制转二进制：" class="headerlink" title="十进制转二进制："></a>十进制转二进制：</h4><p>将该数不断除以2，知道商为0为止，然后将每步得到的于数倒过来，就是对应的二进制。0B开头</p><h4 id="十进制转八进制："><a href="#十进制转八进制：" class="headerlink" title="十进制转八进制："></a>十进制转八进制：</h4><p>将该数不断除以8，知道商为0为止，然后将每步得到的于数倒过来，就是对应的八进制。0开头</p><h4 id="十进制转十六进制："><a href="#十进制转十六进制：" class="headerlink" title="十进制转十六进制："></a>十进制转十六进制：</h4><p>将该数不断除以16，知道商为0为止，然后将每步得到的于数倒过来，就是对应的十六进制。0x开头</p><h4 id="二进制转八进制："><a href="#二进制转八进制：" class="headerlink" title="二进制转八进制："></a>二进制转八进制：</h4><p>从低位开始，将二进制数每三位一组，按二进制转十进制的方法算出数字再组合起来就是八进制。</p><h4 id="二进制转十六进制："><a href="#二进制转十六进制：" class="headerlink" title="二进制转十六进制："></a>二进制转十六进制：</h4><p>从低位开始，将二进制数每四位一组，按二进制转十进制的方法算出数字再组合起来就是十六进制。</p><h4 id="八进制转二进制："><a href="#八进制转二进制：" class="headerlink" title="八进制转二进制："></a>八进制转二进制：</h4><p>将八进制的每一个数，转成对应的一个3位的二进制数即可</p><h4 id="十六进制转二进制："><a href="#十六进制转二进制：" class="headerlink" title="十六进制转二进制："></a>十六进制转二进制：</h4><p>将十六进制的每一个数，转成对应的一个4位的二进制数即可</p><h3 id="二进制在运算中的说明"><a href="#二进制在运算中的说明" class="headerlink" title="二进制在运算中的说明"></a>二进制在运算中的说明</h3><p><img src="http://cdn.mafuhexo.cn/img/202211112159103.png" alt="image-20221111215958023"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java关系运算符 </tag>
             
         </tags>
       
