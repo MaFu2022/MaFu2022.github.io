@@ -4,6 +4,1181 @@
   
     
     <entry>
+      <title>HashSet集合</title>
+      <link href="/2022/11/12/HashSet%E9%9B%86%E5%90%88/"/>
+      <url>/2022/11/12/HashSet%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182928337.png" alt="image-20221112182928337"></p><h3 id="HashSet源码分析"><a href="#HashSet源码分析" class="headerlink" title="HashSet源码分析"></a>HashSet源码分析</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112183049350.png" alt="image-20221112183049350"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112183056361.png" alt="image-20221112183056361"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112183103457.png" alt="image-20221112183103457"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183215.png" alt="微信截图_20221112183215"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183231.png" alt="微信截图_20221112183231"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183245.png" alt="微信截图_20221112183245"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183254.png" alt="微信截图_20221112183254"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112183328981.png" alt="image-20221112183328981"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183348.png" alt="微信截图_20221112183348"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183403.png" alt="微信截图_20221112183403"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112183420.png" alt="微信截图_20221112183420"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>set接口</title>
+      <link href="/2022/11/12/set%E6%8E%A5%E5%8F%A3/"/>
+      <url>/2022/11/12/set%E6%8E%A5%E5%8F%A3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="set接口介绍"><a href="#set接口介绍" class="headerlink" title="set接口介绍"></a>set接口介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182715875.png" alt="image-20221112182715875"></p><p><strong>和 List 接口一样, Set 接口也是 Collection 的子接口，因此，常用方法和 Collection 接口一样.</strong></p><h3 id="Set-接口的遍历方式"><a href="#Set-接口的遍历方式" class="headerlink" title="Set 接口的遍历方式"></a>Set 接口的遍历方式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182806537.png" alt="image-20221112182806537"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LinkedList集合</title>
+      <link href="/2022/11/12/LinkedList%E9%9B%86%E5%90%88/"/>
+      <url>/2022/11/12/LinkedList%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182143663.png" alt="image-20221112182143663"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182208312.png" alt="image-20221112182208312"></p><h3 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112182338.png" alt="微信截图_20221112182338"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112182431.png" alt="微信截图_20221112182431"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112182447.png" alt="微信截图_20221112182447"></p><h3 id="ArrayList-和-LinkedList-比较"><a href="#ArrayList-和-LinkedList-比较" class="headerlink" title="ArrayList 和 LinkedList 比较"></a>ArrayList 和 LinkedList 比较</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182537710.png" alt="image-20221112182537710"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vector集合</title>
+      <link href="/2022/11/12/Vector%E9%9B%86%E5%90%88/"/>
+      <url>/2022/11/12/Vector%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112181901873.png" alt="image-20221112181901873"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112181958.png" alt="微信截图_20221112181958"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112182008.png" alt="微信截图_20221112182008"></p><h3 id="Vector-和ArrayList-的比较"><a href="#Vector-和ArrayList-的比较" class="headerlink" title="Vector 和ArrayList 的比较"></a>Vector 和ArrayList 的比较</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112182037697.png" alt="image-20221112182037697"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ArrayList集合</title>
+      <link href="/2022/11/12/ArrayList%E9%9B%86%E5%90%88/"/>
+      <url>/2022/11/12/ArrayList%E9%9B%86%E5%90%88/</url>
+      
+        <content type="html"><![CDATA[<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175858002.png" alt="image-20221112175858002"></p><h3 id="ArrayList-的底层操作机制源码分析-重点，难点"><a href="#ArrayList-的底层操作机制源码分析-重点，难点" class="headerlink" title="ArrayList 的底层操作机制源码分析(重点，难点.)"></a>ArrayList 的底层操作机制源码分析(重点，难点.)</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175922341.png" alt="image-20221112175922341"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112180046395.png" alt="image-20221112180046395"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112180053392.png" alt="image-20221112180053392"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>list接口</title>
+      <link href="/2022/11/12/list%E6%8E%A5%E5%8F%A3/"/>
+      <url>/2022/11/12/list%E6%8E%A5%E5%8F%A3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175523854.png" alt="image-20221112175523854"></p><h3 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112175640.png" alt="微信截图_20221112175640"></p><h3 id="list的三种遍历方法"><a href="#list的三种遍历方法" class="headerlink" title="list的三种遍历方法"></a>list的三种遍历方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175751603.png" alt="image-20221112175751603"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Collection接口</title>
+      <link href="/2022/11/12/Collection%E6%8E%A5%E5%8F%A3/"/>
+      <url>/2022/11/12/Collection%E6%8E%A5%E5%8F%A3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Collection接口实现类的特点"><a href="#Collection接口实现类的特点" class="headerlink" title="Collection接口实现类的特点"></a>Collection接口实现类的特点</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112174850463.png" alt="image-20221112174850463"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112174953.png" alt="微信截图_20221112174953"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112175005.png" alt="微信截图_20221112175005"></p><h3 id="Collection接口遍历元素方式-1-使用Iterator-迭代器"><a href="#Collection接口遍历元素方式-1-使用Iterator-迭代器" class="headerlink" title="Collection接口遍历元素方式 1-使用Iterator(迭代器)"></a>Collection接口遍历元素方式 1-使用Iterator(迭代器)</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175131785.png" alt="image-20221112175131785"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112175145.png" alt="微信截图_20221112175145"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175214427.png" alt="image-20221112175214427"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112175232.png" alt="微信截图_20221112175232"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112175302.png" alt="微信截图_20221112175302"></p><h3 id="Collection接口遍历元素方式-2-增强-for"><a href="#Collection接口遍历元素方式-2-增强-for" class="headerlink" title="Collection接口遍历元素方式 2-增强(for)"></a>Collection接口遍历元素方式 2-增强(for)</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112175407036.png" alt="image-20221112175407036"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>集合的介绍</title>
+      <link href="/2022/11/12/%E9%9B%86%E5%90%88%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2022/11/12/%E9%9B%86%E5%90%88%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112174133141.png" alt="image-20221112174133141"></p><h3 id="集合的框架体系"><a href="#集合的框架体系" class="headerlink" title="集合的框架体系"></a>集合的框架体系</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112174351831.png" alt="image-20221112174351831"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112174357735.png" alt="image-20221112174357735"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java集合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日期类</title>
+      <link href="/2022/11/12/%E6%97%A5%E6%9C%9F%E7%B1%BB/"/>
+      <url>/2022/11/12/%E6%97%A5%E6%9C%9F%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一代日期类"><a href="#第一代日期类" class="headerlink" title="第一代日期类"></a>第一代日期类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173035063.png" alt="image-20221112173035063"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112173108.png" alt="微信截图_20221112173108"></p><h3 id="第二代日期类"><a href="#第二代日期类" class="headerlink" title="第二代日期类"></a>第二代日期类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173142332.png" alt="image-20221112173142332"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112173156.png" alt="微信截图_20221112173156"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112173205.png" alt="微信截图_20221112173205"></p><h3 id="第三代日期类"><a href="#第三代日期类" class="headerlink" title="第三代日期类"></a>第三代日期类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173458421.png" alt="image-20221112173458421"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173504360.png" alt="image-20221112173504360"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112173552.png" alt="微信截图_20221112173552"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112173604.png" alt="微信截图_20221112173604"></p><h3 id="DateTimeFormatter-格式日期类"><a href="#DateTimeFormatter-格式日期类" class="headerlink" title="DateTimeFormatter 格式日期类"></a>DateTimeFormatter 格式日期类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173746867.png" alt="image-20221112173746867"></p><h3 id="时间戳"><a href="#时间戳" class="headerlink" title="时间戳"></a>时间戳</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173822457.png" alt="image-20221112173822457"></p><h3 id="第三代日期类的更多方法"><a href="#第三代日期类的更多方法" class="headerlink" title="第三代日期类的更多方法"></a>第三代日期类的更多方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112173857326.png" alt="image-20221112173857326"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BigInteger和BigDecimal类</title>
+      <link href="/2022/11/12/BigInteger%E5%92%8CBigDecimal%E7%B1%BB/"/>
+      <url>/2022/11/12/BigInteger%E5%92%8CBigDecimal%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112172631257.png" alt="image-20221112172631257"></p><h3 id="常见方法"><a href="#常见方法" class="headerlink" title="常见方法"></a>常见方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112172644899.png" alt="image-20221112172644899"></p><p>创建对象：BigInteger bigInteger &#x3D; new BigInteger(“23788888899999999999999999999”);</p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112172730.png" alt="微信截图_20221112172730"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112172910.png" alt="微信截图_20221112172910"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>System类</title>
+      <link href="/2022/11/12/System%E7%B1%BB/"/>
+      <url>/2022/11/12/System%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="System-类常见方法和案例"><a href="#System-类常见方法和案例" class="headerlink" title="System 类常见方法和案例"></a>System 类常见方法和案例</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112171609751.png" alt="image-20221112171609751"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112171711.png" alt="微信截图_20221112171711"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Array类</title>
+      <link href="/2022/11/12/Array%E7%B1%BB/"/>
+      <url>/2022/11/12/Array%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112170025244.png" alt="image-20221112170025244"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112170057486.png" alt="image-20221112170057486"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112170349.png" alt="微信截图_20221112170349"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112170507.png" alt="微信截图_20221112170507"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112170637.png" alt="微信截图_20221112170637"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Math类</title>
+      <link href="/2022/11/12/Math%E7%B1%BB/"/>
+      <url>/2022/11/12/Math%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>Math 类包含用于执行基本数学运算的方法，如初等指数、对数、平方根和三角函数。</strong></p><h3 id="方法一览"><a href="#方法一览" class="headerlink" title="方法一览"></a>方法一览</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112165152440.png" alt="image-20221112165152440"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112165227.png" alt="微信截图_20221112165227"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112165244.png" alt="微信截图_20221112165244"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112165251.png" alt="微信截图_20221112165251"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>String的包装类</title>
+      <link href="/2022/11/12/String%E7%9A%84%E5%8C%85%E8%A3%85%E7%B1%BB/"/>
+      <url>/2022/11/12/String%E7%9A%84%E5%8C%85%E8%A3%85%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="StringBuffer类基本介绍"><a href="#StringBuffer类基本介绍" class="headerlink" title="StringBuffer类基本介绍"></a>StringBuffer类基本介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164228950.png" alt="image-20221112164228950"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112164310.png" alt="微信截图_20221112164310"></p><h3 id="String和StringBuffer"><a href="#String和StringBuffer" class="headerlink" title="String和StringBuffer"></a>String和StringBuffer</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164412394.png" alt="image-20221112164412394"></p><h3 id="StringBuilder类介绍"><a href="#StringBuilder类介绍" class="headerlink" title="StringBuilder类介绍"></a>StringBuilder类介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164601665.png" alt="image-20221112164601665"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164740283.png" alt="image-20221112164740283"></p><h3 id="String-StringBuffer-和-StringBuilder的比较"><a href="#String-StringBuffer-和-StringBuilder的比较" class="headerlink" title="String  StringBuffer 和 StringBuilder的比较"></a>String  StringBuffer 和 StringBuilder的比较</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164826092.png" alt="image-20221112164826092"></p><h3 id="String-StringBuffer-和-StringBuilder的选择"><a href="#String-StringBuffer-和-StringBuilder的选择" class="headerlink" title="String  StringBuffer 和 StringBuilder的选择"></a>String  StringBuffer 和 StringBuilder的选择</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164952882.png" alt="image-20221112164952882"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>String类</title>
+      <link href="/2022/11/12/String%E7%B1%BB/"/>
+      <url>/2022/11/12/String%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="String-类的理解和创建对象"><a href="#String-类的理解和创建对象" class="headerlink" title="String 类的理解和创建对象"></a>String 类的理解和创建对象</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163101944.png" alt="image-20221112163101944"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163126449.png" alt="image-20221112163126449"></p><h3 id="创建String的两种方式"><a href="#创建String的两种方式" class="headerlink" title="创建String的两种方式"></a>创建String的两种方式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163201910.png" alt="image-20221112163201910"></p><h3 id="两种创建String对象的区别"><a href="#两种创建String对象的区别" class="headerlink" title="两种创建String对象的区别"></a>两种创建String对象的区别</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163230704.png" alt="image-20221112163230704"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163247447.png" alt="image-20221112163247447"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163342322.png" alt="image-20221112163342322"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163357314.png" alt="image-20221112163357314"></p><h3 id="String字符串的特性"><a href="#String字符串的特性" class="headerlink" title="String字符串的特性"></a>String字符串的特性</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163444483.png" alt="image-20221112163444483"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163604525.png" alt="image-20221112163604525"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163616095.png" alt="image-20221112163616095"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112163629.png" alt="微信截图_20221112163629"></p><h3 id="String类的常见方法"><a href="#String类的常见方法" class="headerlink" title="String类的常见方法"></a>String类的常见方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112163818947.png" alt="image-20221112163818947"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164030307.png" alt="image-20221112164030307"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112164053781.png" alt="image-20221112164053781"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>包装类</title>
+      <link href="/2022/11/12/%E5%8C%85%E8%A3%85%E7%B1%BB/"/>
+      <url>/2022/11/12/%E5%8C%85%E8%A3%85%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="包装类的分类"><a href="#包装类的分类" class="headerlink" title="包装类的分类"></a>包装类的分类</h3><p>针对八种基本数据类型相应的引用类型—包装类</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112161226353.png" alt="image-20221112161226353"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112161236123.png" alt="image-20221112161236123"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112161332.png" alt="微信截图_20221112161332"></p><h3 id="包装类和基本数据的转换"><a href="#包装类和基本数据的转换" class="headerlink" title="包装类和基本数据的转换"></a>包装类和基本数据的转换</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112161423301.png" alt="image-20221112161423301"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112161523.png" alt="微信截图_20221112161523"></p><h3 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112161630.png" alt="微信截图_20221112161630"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自定义异常</title>
+      <link href="/2022/11/12/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8/"/>
+      <url>/2022/11/12/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112160410227.png" alt="image-20221112160410227"></p><h3 id="自定义异常的步骤"><a href="#自定义异常的步骤" class="headerlink" title="自定义异常的步骤"></a>自定义异常的步骤</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112160452868.png" alt="image-20221112160452868"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112160551.png" alt="微信截图_20221112160551"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112160558.png" alt="微信截图_20221112160558"></p><h3 id="throw和throws的区别"><a href="#throw和throws的区别" class="headerlink" title="throw和throws的区别"></a>throw和throws的区别</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112160722370.png" alt="image-20221112160722370"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java异常-Exception </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>异常处理</title>
+      <link href="/2022/11/12/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/"/>
+      <url>/2022/11/12/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155048772.png" alt="image-20221112155048772"></p><h3 id="异常处理的方式"><a href="#异常处理的方式" class="headerlink" title="异常处理的方式"></a>异常处理的方式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155114907.png" alt="image-20221112155114907"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155123823.png" alt="image-20221112155123823"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155210348.png" alt="image-20221112155210348"></p><h3 id="ty-catch异常处理"><a href="#ty-catch异常处理" class="headerlink" title="ty-catch异常处理"></a>ty-catch异常处理</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155234003.png" alt="image-20221112155234003"></p><h3 id="try-catch-方式处理异常-注意事项"><a href="#try-catch-方式处理异常-注意事项" class="headerlink" title="try-catch 方式处理异常-注意事项"></a>try-catch 方式处理异常-注意事项</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155342438.png" alt="image-20221112155342438"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155402738.png" alt="image-20221112155402738"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155430686.png" alt="image-20221112155430686"></p><h3 id="try-catch-finally-执行顺序小结"><a href="#try-catch-finally-执行顺序小结" class="headerlink" title="try-catch-finally 执行顺序小结"></a>try-catch-finally 执行顺序小结</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112155539957.png" alt="image-20221112155539957"></p><h3 id="throws异常处理"><a href="#throws异常处理" class="headerlink" title="throws异常处理"></a>throws异常处理</h3><h4 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221112160121195.png" alt="image-20221112160121195"></p><h4 id="注意事项和使用细节"><a href="#注意事项和使用细节" class="headerlink" title="注意事项和使用细节"></a>注意事项和使用细节</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221112160220903.png" alt="image-20221112160220903"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java异常-Exception </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>编译异常</title>
+      <link href="/2022/11/12/%E7%BC%96%E8%AF%91%E5%BC%82%E5%B8%B8/"/>
+      <url>/2022/11/12/%E7%BC%96%E8%AF%91%E5%BC%82%E5%B8%B8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112154937099.png" alt="image-20221112154937099"></p><h3 id="常见的编译异常"><a href="#常见的编译异常" class="headerlink" title="常见的编译异常"></a>常见的编译异常</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112154952294.png" alt="image-20221112154952294"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java异常-Exception </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运行时异常</title>
+      <link href="/2022/11/12/%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BC%82%E5%B8%B8/"/>
+      <url>/2022/11/12/%E8%BF%90%E8%A1%8C%E6%97%B6%E5%BC%82%E5%B8%B8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="运行时异常"><a href="#运行时异常" class="headerlink" title="运行时异常"></a>运行时异常</h3><ol><li><p>NullPointerException 空指针异常</p><p>当应用程序试图在需要对象的地方使用 null 时，抛出该异常</p></li><li><p>ArithmeticException 数学运算异常</p><p>当出现异常的运算条件时，抛出此异常。例如，一个整数“除以零”时，抛出此类的一个实例,</p></li><li><p>ArrayIndexOutOfBoundsException 数组下标越界异常</p><p>用非法索引访问数组时抛出的异常。如果索引为负或大于等于数组大小，则该索引为非法索引</p></li><li><p>ClassCastException 类型转换异常</p><p>当试图将对象强制转换为不是实例的子类时，抛出该异常。</p></li><li><p>NumberFormatException 数字格式不正确异常</p><p>当应用程序试图将字符串转换成一种数值类型，但该字符串不能转换为适当格式时，抛出该异常 &#x3D;&gt; 使用异常我们可以确保输入是满足条件数字</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java异常-Exception </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>异常—Exception</title>
+      <link href="/2022/11/12/%E5%BC%82%E5%B8%B8%E2%80%94Exception/"/>
+      <url>/2022/11/12/%E5%BC%82%E5%B8%B8%E2%80%94Exception/</url>
+      
+        <content type="html"><![CDATA[<h3 id="异常介绍"><a href="#异常介绍" class="headerlink" title="异常介绍"></a>异常介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112153524889.png" alt="image-20221112153524889"></p><h3 id="异常体系图"><a href="#异常体系图" class="headerlink" title="异常体系图"></a>异常体系图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112153548860.png" alt="image-20221112153548860"></p><h3 id="异常体系图小结"><a href="#异常体系图小结" class="headerlink" title="异常体系图小结"></a>异常体系图小结</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112153612946.png" alt="image-20221112153612946"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java异常-Exception </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>注解</title>
+      <link href="/2022/11/12/%E6%B3%A8%E8%A7%A3/"/>
+      <url>/2022/11/12/%E6%B3%A8%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ol><li>注解(Annotation)也被称为元数据(Metadata)，用于修饰解释 包、类、方法、属性、构造器、局部变量等数据信息</li><li>和注释一样，注解不影响程序逻辑，但注解可以被编译或运行，相当于嵌入在代码中的补充信息。</li><li>在 JavaSE 中，注解的使用目的比较简单，例如标记过时的功能，忽略警告等。在 JavaEE 中注解占据了更重要的角色，例如用来配置应用程序的任何切面，代替 java EE 旧版中所遗留的繁冗代码和 XML 配置等。</li></ol><h3 id="Annotation介绍"><a href="#Annotation介绍" class="headerlink" title="Annotation介绍"></a>Annotation介绍</h3><p>使用 Annotation 时要在其前面增加 @ 符号, 并把该 Annotation 当成一个修饰符使用。用于修饰它支持的程序元素</p><p>三个基本的 Annotation:</p><ol><li>@Override: 限定某个方法，是重写父类方法, 该注解只能用于方法</li><li>@Deprecated: 用于表示某个程序元素(类, 方法等)已过时</li><li>@SuppressWarnings: 抑制编译器警告</li></ol><p><img src="https://cdn.mafuhexo.cn/img/image-20221112151819819.png" alt="image-20221112151819819"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112151855631.png" alt="image-20221112151855631"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112151937395.png" alt="image-20221112151937395"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112152008022.png" alt="image-20221112152008022"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java枚举和注解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>枚举</title>
+      <link href="/2022/11/12/%E6%9E%9A%E4%B8%BE/"/>
+      <url>/2022/11/12/%E6%9E%9A%E4%B8%BE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><strong>枚举是一组常量的集合。可以这里理解：枚举属于一种特殊的类，里面只包含一组有限的特定的对象。使用 enum 关键字实现枚举或者自定义</strong></p><h3 id="自定义实现枚举"><a href="#自定义实现枚举" class="headerlink" title="自定义实现枚举"></a>自定义实现枚举</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112150237793.png" alt="image-20221112150237793"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112150350.png" alt="微信截图_20221112150350"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112150406.png" alt="微信截图_20221112150406"></p><h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><ol><li>构造器私有化</li><li>本类内部创建一组对象[四个 春夏秋冬]</li><li>对外暴露对象（通过为对象添加 public final static 修饰符）</li><li>可以提供 get 方法，但是不要提供set</li></ol><h3 id="enum关键字实现枚举"><a href="#enum关键字实现枚举" class="headerlink" title="enum关键字实现枚举"></a>enum关键字实现枚举</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112150729.png" alt="微信截图_20221112150729"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112150737.png" alt="微信截图_20221112150737"></p><h3 id="enum-关键字实现枚举注意事项"><a href="#enum-关键字实现枚举注意事项" class="headerlink" title="enum 关键字实现枚举注意事项"></a>enum 关键字实现枚举注意事项</h3><ol><li>当我们使用enum 关键字开发一个枚举类时，默认会继承 Enum 类, 而且是一个final 类[如何证明],老师使用javap 工具来演示</li><li>传统的 public static final Season2 SPRING &#x3D; new Season2(“春天”, “温暖”); 简化成 SPRING(“春天”, “温暖”)， 这里必须知道，它调用的是哪个构造器.</li><li>如果使用无参构造器 创建 枚举对象，则实参列表和小括号都可以省略</li><li>当有多个枚举对象时，使用,间隔，最后有一个分号结尾</li><li>枚举对象必须放在枚举类的行首</li></ol><h3 id="enum常用方法"><a href="#enum常用方法" class="headerlink" title="enum常用方法"></a>enum常用方法</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112151117.png" alt="微信截图_20221112151117"></p><ol><li>toString:Enum 类已经重写过了，返回的是当前对象名,子类可以重写该方法，用于返回对象的属性信息</li><li>name：返回当前对象名（常量名），子类中不能重写</li><li>ordinal：返回当前对象的位置号，默认从 0 开始</li><li>values：返回当前枚举类中所有的常量</li><li>valueOf：将字符串转换成枚举对象，要求字符串必须为已有的常量名，否则报异常！</li><li>compareTo：比较两个枚举常量，比较的就是编号！</li></ol><h5 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h5><ol><li>使用 enum 关键字后，就不能再继承其它类了，因为 enum 会隐式继承 Enum，而 Java 是单继承机制</li><li>enum 实现的枚举类，仍然是一个类，所以还是可以实现接口的</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java枚举和注解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>内部类</title>
+      <link href="/2022/11/12/%E5%86%85%E9%83%A8%E7%B1%BB/"/>
+      <url>/2022/11/12/%E5%86%85%E9%83%A8%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>如果定义类在局部位置(方法中&#x2F;代码块) :(1) 局部内部类 (2) 匿名内部类</strong></p><p><strong>定义在成员位置 (1) 成员内部类 (2) 静态内部类</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143415500.png" alt="image-20221112143415500"></p><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143509249.png" alt="image-20221112143509249"></p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143525869.png" alt="image-20221112143525869"></p><h3 id="局部内部类使用"><a href="#局部内部类使用" class="headerlink" title="局部内部类使用"></a>局部内部类使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143547454.png" alt="image-20221112143547454"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143710269.png" alt="image-20221112143710269"></p><h3 id="匿名内部类的使用"><a href="#匿名内部类的使用" class="headerlink" title="匿名内部类的使用"></a>匿名内部类的使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143806464.png" alt="image-20221112143806464"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144306665.png" alt="image-20221112144306665"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144322438.png" alt="image-20221112144322438"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144337298.png" alt="image-20221112144337298"></p><h3 id="成员内部类的使用"><a href="#成员内部类的使用" class="headerlink" title="成员内部类的使用"></a>成员内部类的使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144644389.png" alt="image-20221112144644389"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144708648.png" alt="image-20221112144708648"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112144732783.png" alt="image-20221112144732783"></p><h3 id="外部类其他类使用成员内部类的三种方式"><a href="#外部类其他类使用成员内部类的三种方式" class="headerlink" title="外部类其他类使用成员内部类的三种方式"></a>外部类其他类使用成员内部类的三种方式</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112144959.png" alt="微信截图_20221112144959"></p><h3 id="静态内部类的使用"><a href="#静态内部类的使用" class="headerlink" title="静态内部类的使用"></a>静态内部类的使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112145549953.png" alt="image-20221112145549953"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112145555214.png" alt="image-20221112145555214"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112145609840.png" alt="image-20221112145609840"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112145618614.png" alt="image-20221112145618614"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>接口</title>
+      <link href="/2022/11/12/%E6%8E%A5%E5%8F%A3/"/>
+      <url>/2022/11/12/%E6%8E%A5%E5%8F%A3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142642260.png" alt="image-20221112142642260"></p><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142730034.png" alt="image-20221112142730034"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142811043.png" alt="image-20221112142811043"></p><h3 id="实现接口和继承类"><a href="#实现接口和继承类" class="headerlink" title="实现接口和继承类"></a>实现接口和继承类</h3><ol><li>当子类继承了父类，就自动的拥有父类的功能</li><li>如果子类需要扩展功能，可以通过实现接口的方式扩展.</li><li>可以理解 实现接口 是 对 java 单继承机制的一种补充.</li></ol><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143013862.png" alt="image-20221112143013862"></p><h3 id="接口多态特征"><a href="#接口多态特征" class="headerlink" title="接口多态特征"></a>接口多态特征</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112143104145.png" alt="image-20221112143104145"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>抽象类</title>
+      <link href="/2022/11/12/%E6%8A%BD%E8%B1%A1%E7%B1%BB/"/>
+      <url>/2022/11/12/%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142320006.png" alt="image-20221112142320006"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142100365.png" alt="image-20221112142100365"></p><h3 id="细节讨论"><a href="#细节讨论" class="headerlink" title="细节讨论"></a>细节讨论</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142135610.png" alt="image-20221112142135610"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142203124.png" alt="image-20221112142203124"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142232133.png" alt="image-20221112142232133"></p><h3 id="抽象类-模板设计模式"><a href="#抽象类-模板设计模式" class="headerlink" title="抽象类-模板设计模式"></a>抽象类-模板设计模式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142421505.png" alt="image-20221112142421505"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112142436567.png" alt="image-20221112142436567"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>final关键字</title>
+      <link href="/2022/11/12/final%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <url>/2022/11/12/final%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112141757443.png" alt="image-20221112141757443"></p><h3 id="使用细节"><a href="#使用细节" class="headerlink" title="使用细节"></a>使用细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112141827523.png" alt="image-20221112141827523"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112141941151.png" alt="image-20221112141941151"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单例设计模式</title>
+      <link href="/2022/11/12/%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+      <url>/2022/11/12/%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是单例模式"><a href="#什么是单例模式" class="headerlink" title="什么是单例模式"></a>什么是单例模式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112141113214.png" alt="image-20221112141113214"></p><h4 id="饿汉式"><a href="#饿汉式" class="headerlink" title="饿汉式"></a>饿汉式</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112141207.png" alt="微信截图_20221112141207"></p><h4 id="懒汉式"><a href="#懒汉式" class="headerlink" title="懒汉式"></a>懒汉式</h4><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112141426.png" alt="微信截图_20221112141426"></p><h3 id="饿汉式和懒汉式对比"><a href="#饿汉式和懒汉式对比" class="headerlink" title="饿汉式和懒汉式对比"></a>饿汉式和懒汉式对比</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112141637614.png" alt="image-20221112141637614"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>代码块</title>
+      <link href="/2022/11/12/%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
+      <url>/2022/11/12/%E4%BB%A3%E7%A0%81%E5%9D%97/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140230350.png" alt="image-20221112140230350"></p><h3 id="代码块的好处"><a href="#代码块的好处" class="headerlink" title="代码块的好处"></a>代码块的好处</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140255160.png" alt="image-20221112140255160"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112140401.png" alt="微信截图_20221112140401"></p><h3 id="代码块的使用注意细节"><a href="#代码块的使用注意细节" class="headerlink" title="代码块的使用注意细节"></a>代码块的使用注意细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140437580.png" alt="image-20221112140437580"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140618805.png" alt="image-20221112140618805"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140722790.png" alt="image-20221112140722790"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112140845261.png" alt="image-20221112140845261"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>深入理解main方法</title>
+      <link href="/2022/11/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3main%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/11/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3main%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112140027405.png" alt="image-20221112140027405"></p><p>在 main()方法中，我们可以直接调用 main 方法所在类的静态方法或静态属性。但是，不能直接访问该类中的非静态成员，必须创建该类的一个实例对象后，才能通过这个对象去访问类中的非静态成员</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类方法静态方法</title>
+      <link href="/2022/11/12/%E7%B1%BB%E6%96%B9%E6%B3%95%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/11/12/%E7%B1%BB%E6%96%B9%E6%B3%95%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135725700.png" alt="image-20221112135725700"></p><h3 id="类方法的调用"><a href="#类方法的调用" class="headerlink" title="类方法的调用"></a>类方法的调用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135744594.png" alt="image-20221112135744594"></p><h3 id="类方法细节"><a href="#类方法细节" class="headerlink" title="类方法细节"></a>类方法细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135837405.png" alt="image-20221112135837405"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135851503.png" alt="image-20221112135851503"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类变量静态变量</title>
+      <link href="/2022/11/12/%E7%B1%BB%E5%8F%98%E9%87%8F%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F/"/>
+      <url>/2022/11/12/%E7%B1%BB%E5%8F%98%E9%87%8F%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112135240.png" alt="微信截图_20221112135240"></p><h3 id="什么是类变量"><a href="#什么是类变量" class="headerlink" title="什么是类变量"></a>什么是类变量</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135336264.png" alt="image-20221112135336264"></p><h3 id="如何定义类变量"><a href="#如何定义类变量" class="headerlink" title="如何定义类变量"></a>如何定义类变量</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135420440.png" alt="image-20221112135420440"></p><h3 id="如何范围类变量"><a href="#如何范围类变量" class="headerlink" title="如何范围类变量"></a>如何范围类变量</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135449413.png" alt="image-20221112135449413"></p><h3 id="类变量的使用细节"><a href="#类变量的使用细节" class="headerlink" title="类变量的使用细节"></a>类变量的使用细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135513782.png" alt="image-20221112135513782"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112135529401.png" alt="image-20221112135529401"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Object类</title>
+      <link href="/2022/11/12/Object%E7%B1%BB/"/>
+      <url>/2022/11/12/Object%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h3 id="equals方法"><a href="#equals方法" class="headerlink" title="equals方法"></a>equals方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112134102894.png" alt="image-20221112134102894"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112134105744.png" alt="image-20221112134105744"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112134246.png" alt="微信截图_20221112134246"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112134256.png" alt="微信截图_20221112134256"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112134303.png" alt="微信截图_20221112134303"></p><h3 id="hashCode方法"><a href="#hashCode方法" class="headerlink" title="hashCode方法"></a>hashCode方法</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112134459990.png" alt="image-20221112134459990"></p><h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><ol><li>提高具有哈希结构的容器的效率！</li><li>两个引用，如果指向的是同一个对象，则哈希值肯定是一样的！</li><li>两个引用，如果指向的是不同对象，则哈希值是不一样的</li><li>哈希值主要根据地址号来的！， 不能完全将哈希值等价于地址。</li></ol><h3 id="toString方法"><a href="#toString方法" class="headerlink" title="toString方法"></a>toString方法</h3><h5 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h5><ol><li>默认返回：全类名+@+哈希值的十六进制，【查看 Object 的 toString 方法】子类往往重写 toString 方法，用于返回对象的属性信息</li><li>重写 toString 方法，打印对象或拼接对象时，都会自动调用该对象的 toString 形式.</li><li>当直接输出一个对象时， toString 方法会被默认的调用, 比如 System.out.println(monster) ； 就会默认调用monster.toString()</li></ol><h3 id="finalize方法"><a href="#finalize方法" class="headerlink" title="finalize方法"></a>finalize方法</h3><ol><li>当对象被回收时，系统自动调用该对象的 finalize 方法。子类可以重写该方法，做一些释放资源的操作</li><li>什么时候被回收：当某个对象没有任何引用时，则 jvm 就认为这个对象是一个垃圾对象，就会使用垃圾回收机制来销毁该对象，在销毁该对象前，会先调用 finalize 方法。</li><li>垃圾回收机制的调用，是由系统来决定(即有自己的 GC 算法), 也可以通过 System.gc() 主动触发垃圾回收机制</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java常用类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动态绑定机制</title>
+      <link href="/2022/11/12/%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9A%E6%9C%BA%E5%88%B6/"/>
+      <url>/2022/11/12/%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9A%E6%9C%BA%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112133542151.png" alt="image-20221112133542151"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112133715062.png" alt="image-20221112133715062"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>方法的重写</title>
+      <link href="/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99/"/>
+      <url>/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E5%86%99/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112131401840.png" alt="image-20221112131401840"></p><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112131452356.png" alt="image-20221112131452356"></p><h3 id="方法的重载和重写的区别"><a href="#方法的重载和重写的区别" class="headerlink" title="方法的重载和重写的区别"></a>方法的重载和重写的区别</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112131545279.png" alt="image-20221112131545279"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>面向对象编程三大特征</title>
+      <link href="/2022/11/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E4%B8%89%E5%A4%A7%E7%89%B9%E5%BE%81/"/>
+      <url>/2022/11/12/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E4%B8%89%E5%A4%A7%E7%89%B9%E5%BE%81/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>面向对象编程有三大特征：封装、继承和多态。</p><h4 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124419080.png" alt="image-20221112124419080"></p><h5 id="封装的好处"><a href="#封装的好处" class="headerlink" title="封装的好处"></a>封装的好处</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124509239.png" alt="image-20221112124509239"></p><h5 id="封装的实现步骤"><a href="#封装的实现步骤" class="headerlink" title="封装的实现步骤"></a>封装的实现步骤</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124535385.png" alt="image-20221112124535385"></p><h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><p>继承可以解决代码复用,让我们的编程更加靠近人类思维.当多个类存在相同的属性(变量)和方法时,可以从这些类中抽象出父类,在父类中定义这些相同的属性和方法，所有的子类不需要重新定义这些属性和方法，只需要通过 extends 来声明继承父类即可。画出继承的示意图</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124720176.png" alt="image-20221112124720176"></p><h5 id="继承的语法"><a href="#继承的语法" class="headerlink" title="继承的语法"></a>继承的语法</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124739020.png" alt="image-20221112124739020"></p><h5 id="继承的好处"><a href="#继承的好处" class="headerlink" title="继承的好处"></a>继承的好处</h5><ol><li>代码的复用性提高了</li><li>代码的扩展性和维护性提高了</li></ol><h5 id="继承的细节"><a href="#继承的细节" class="headerlink" title="继承的细节"></a>继承的细节</h5><ol><li>子类继承了所有的属性和方法，非私有的属性和方法可以在子类直接访问, 但是私有属性和方法不能在子类直接访问，要通过父类提供公共的方法去访问</li><li>子类必须调用父类的构造器， 完成父类的初始化</li><li>当创建子类对象时，不管使用子类的哪个构造器，默认情况下总会去调用父类的无参构造器，如果父类没有提供无参构造器，则必须在子类的构造器中用 super 去指定使用父类的哪个构造器完成对父类的初始化工作，否则，编译不会通过(怎么理解。) </li><li>如果希望指定去调用父类的某个构造器，则显式的调用一下 : super(参数列表)</li><li>super 在使用时，必须放在构造器第一行(super 只能在构造器中使用)</li><li>super() 和 this() 都只能放在构造器第一行，因此这两个方法不能共存在一个构造器</li><li>java 所有类都是 Object 类的子类, Object 是所有类的基类</li><li>父类构造器的调用不限于直接父类！将一直往上追溯直到 Object 类(顶级父类)</li><li>子类最多只能继承一个父类(指直接继承)，即 java 中是单继承机制。思考：如何让 A 类继承 B 类和 C 类？ 【A 继承 B， B 继承 C】</li><li>不能滥用继承，子类和父类之间必须满足 is-a 的逻辑关系</li></ol><h5 id="继承的本质"><a href="#继承的本质" class="headerlink" title="继承的本质"></a>继承的本质</h5><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130313.png" alt="微信截图_20221112130313"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130320.png" alt="微信截图_20221112130320"></p><h6 id="内存布局图"><a href="#内存布局图" class="headerlink" title="内存布局图"></a>内存布局图</h6><p><img src="https://cdn.mafuhexo.cn/img/image-20221112130420397.png" alt="image-20221112130420397"></p><h5 id="super关键字"><a href="#super关键字" class="headerlink" title="super关键字"></a>super关键字</h5><p>super 代表父类的引用，用于<strong>访问父类的属性、方法、构造</strong>器</p><h6 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h6><p><img src="https://cdn.mafuhexo.cn/img/image-20221112130547621.png" alt="image-20221112130547621"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130727.png" alt="微信截图_20221112130727"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130742.png" alt="微信截图_20221112130742"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130752.png" alt="微信截图_20221112130752"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130801.png" alt="微信截图_20221112130801"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112130807.png" alt="微信截图_20221112130807"></p><h6 id="super的好处和细节"><a href="#super的好处和细节" class="headerlink" title="super的好处和细节"></a>super的好处和细节</h6><p><img src="https://cdn.mafuhexo.cn/img/image-20221112131111814.png" alt="image-20221112131111814"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112131115722.png" alt="image-20221112131115722"></p><h4 id="super和this的比较"><a href="#super和this的比较" class="headerlink" title="super和this的比较"></a>super和this的比较</h4><p><img src="https://cdn.mafuhexo.cn/img/image-20221112131235038.png" alt="image-20221112131235038"></p><h4 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h4><p>方法或对象具有多种形态。是面向对象的第三大特征，多态是建立在封装和继承基础之上的。</p><h5 id="方法的多态"><a href="#方法的多态" class="headerlink" title="方法的多态"></a>方法的多态</h5><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112131847.png" alt="微信截图_20221112131847"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112131852.png" alt="微信截图_20221112131852"></p><h5 id="对象的多态"><a href="#对象的多态" class="headerlink" title="对象的多态"></a>对象的多态</h5><p><img src="https://cdn.mafuhexo.cn/img/image-20221112132125370.png" alt="image-20221112132125370"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112132133161.png" alt="image-20221112132133161"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112132324.png" alt="微信截图_20221112132324"></p><h5 id="多态的细节"><a href="#多态的细节" class="headerlink" title="多态的细节"></a>多态的细节</h5><p><strong>多态的前提是：两个对象(类)存在继承关系</strong></p><h6 id="多态的向上转型"><a href="#多态的向上转型" class="headerlink" title="多态的向上转型"></a>多态的向上转型</h6><p><img src="https://cdn.mafuhexo.cn/img/image-20221112133158288.png" alt="image-20221112133158288"></p><h6 id="多态的向下转型"><a href="#多态的向下转型" class="headerlink" title="多态的向下转型"></a>多态的向下转型</h6><p><img src="https://cdn.mafuhexo.cn/img/image-20221112133236907.png" alt="image-20221112133236907"></p><p><strong>instanceOf 比较操作符，用于判断对象的运行类型是否为 XX 类型或XX 类型的子类型</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>访问修饰符</title>
+      <link href="/2022/11/12/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6/"/>
+      <url>/2022/11/12/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>java 提供四种访问控制修饰符号，用于控制方法和属性(成员变量)的访问权限（范围）</p><ol><li>公开级别:用 public 修饰,对外公开</li><li>受保护级别:用 protected 修饰,对子类和同一个包中的类公开</li><li>默认级别:没有修饰符号,向同一个包的类公开.</li><li>私有级别:用 private 修饰,只有类本身可以访问,不对外公开.</li></ol><h3 id="访问修饰符的访问范围"><a href="#访问修饰符的访问范围" class="headerlink" title="访问修饰符的访问范围"></a>访问修饰符的访问范围</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124015639.png" alt="image-20221112124015639"></p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112124103978.png" alt="image-20221112124103978"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>this关键字</title>
+      <link href="/2022/11/12/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <url>/2022/11/12/this%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.mafuhexo.cn/img/image-20221112110615887.png" alt="image-20221112110615887"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112122805.png" alt="微信截图_20221112122805"></p><h3 id="深入理解this"><a href="#深入理解this" class="headerlink" title="深入理解this"></a>深入理解this</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112122939056.png" alt="image-20221112122939056"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112122945610.png" alt="image-20221112122945610"></p><h3 id="this的注意事项和细节"><a href="#this的注意事项和细节" class="headerlink" title="this的注意事项和细节"></a>this的注意事项和细节</h3><ol><li>this 关键字可以用来访问本类的属性、方法、构造器</li><li>this 用于区分当前类的属性和局部变量</li><li>访问成员方法的语法：this.方法名(参数列表);</li><li>访问构造器语法：this(参数列表); 注意只能在构造器中使用(即只能在构造器中访问另外一个构造器, 必须放在第一条语句)</li><li>this 不能在类定义的外部使用，只能在类定义的方法中使用。</li></ol><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112123122.png" alt="微信截图_20221112123122"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112123130.png" alt="微信截图_20221112123130"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>构造方法构造器</title>
+      <link href="/2022/11/12/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E6%9E%84%E9%80%A0%E5%99%A8/"/>
+      <url>/2022/11/12/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E6%9E%84%E9%80%A0%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p>[修饰符] 方法名(形参列表){ </p><p>方法体；</p><p>}</p><ol><li>构造器的修饰符可以默认， 也可以是 public protected private</li><li>构造器没有返回值</li><li>方法名 和类名字必须一样</li><li>参数列表 和 成员方法一样的规则</li><li>构造器的调用, 由系统完成</li></ol><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>构造方法又叫构造器(constructor)，是类的一种特殊的方法，它的主要作用是完成对新对象的初始化。它有几个特点：</p><ol><li>方法名和类名相同</li><li>没有返回值</li><li>在创建对象时，系统会自动的调用该类的构造器完成对象的初始化。</li></ol><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112110450518.png" alt="image-20221112110450518"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112110508755.png" alt="image-20221112110508755"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>作用域</title>
+      <link href="/2022/11/12/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+      <url>/2022/11/12/%E4%BD%9C%E7%94%A8%E5%9F%9F/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112105344170.png" alt="image-20221112105344170"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112105751.png" alt="微信截图_20221112105751"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112105757.png" alt="微信截图_20221112105757"></p><h3 id="注意事项和细节使用"><a href="#注意事项和细节使用" class="headerlink" title="注意事项和细节使用"></a>注意事项和细节使用</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112105908908.png" alt="image-20221112105908908"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112105916845.png" alt="image-20221112105916845"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112105940.png" alt="微信截图_20221112105940"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112105949.png" alt="微信截图_20221112105949"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112110009.png" alt="微信截图_20221112110009"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>可变参数</title>
+      <link href="/2022/11/12/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/"/>
+      <url>/2022/11/12/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>java 允许将同一个类中多个同名同功能但参数个数不同的方法，封装成一个方法。就可以通过可变参数实现</strong></p><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p>访问修饰符 返回类型 方法名(数据类型… 形参名) {</p><p>}</p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112105104.png" alt="微信截图_20221112105104"></p><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112105200835.png" alt="image-20221112105200835"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>方法的重载</title>
+      <link href="/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E8%BD%BD/"/>
+      <url>/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%87%8D%E8%BD%BD/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>java 中允许同一个类中，多个同名方法的存在，但要求 形参列表不一致！ 比如：System.out.println();         out 是 PrintStream 类型</strong></p><h3 id="重载的好处"><a href="#重载的好处" class="headerlink" title="重载的好处"></a>重载的好处</h3><ol><li>减轻了起名的麻烦</li><li>减轻了记名的麻烦</li></ol><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112104714224.png" alt="image-20221112104714224"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112104800329.png" alt="image-20221112104800329"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>方法的递归</title>
+      <link href="/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%80%92%E5%BD%92/"/>
+      <url>/2022/11/12/%E6%96%B9%E6%B3%95%E7%9A%84%E9%80%92%E5%BD%92/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>简单的说: 递归就是方法自己调用自己,每次调用时传入不同的变量.递归有助于编程者解决复杂问题,同时可以让代码变得简洁</strong></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112104249389.png" alt="image-20221112104249389"></p><h3 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112104355790.png" alt="image-20221112104355790"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类的成员方法</title>
+      <link href="/2022/11/12/%E7%B1%BB%E7%9A%84%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/11/12/%E7%B1%BB%E7%9A%84%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>在某些情况下，我们要需要定义成员方法(简称方法)。比如人类:除了有一些属性外( 年龄，姓名..),我们人类还有一些行为比如:可以说话、跑步..,通过学习，还可以做算术题。这时就要用成员方法才能完成。现在要求对 Person 类完善。</strong></p><h3 id="案列"><a href="#案列" class="headerlink" title="案列"></a>案列</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112102854.png" alt="微信截图_20221112102854"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112102902.png" alt="微信截图_20221112102902"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112103015.png" alt="微信截图_20221112103015"></p><h3 id="方法的调用机制原理"><a href="#方法的调用机制原理" class="headerlink" title="方法的调用机制原理"></a>方法的调用机制原理</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112103110658.png" alt="image-20221112103110658"></p><h3 id="成员方法的好处"><a href="#成员方法的好处" class="headerlink" title="成员方法的好处"></a>成员方法的好处</h3><ol><li>提高代码的复用性</li><li>可以将实现的细节封装起来，然后供其他用户来调用即可</li></ol><h3 id="成员方法的定义"><a href="#成员方法的定义" class="headerlink" title="成员方法的定义"></a>成员方法的定义</h3><p>访问修饰符 返回数据类型 方法名（形参列表..） {&#x2F;&#x2F;方法体</p><p>语句；</p><p>return 返回值;</p><p>}</p><ol><li>形参列表：表示成员方法输入 cal(int n) ， getSum(int num1, int num2)</li><li>返回数据类型：表示成员方法输出, void 表示没有返回值</li><li>方法主体：表示为了实现某一功能代码块</li><li>return 语句不是必须的。</li></ol><h3 id="注意事项和细节"><a href="#注意事项和细节" class="headerlink" title="注意事项和细节"></a>注意事项和细节</h3><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112103530.png" alt="微信截图_20221112103530"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112103539.png" alt="微信截图_20221112103539"></p><p><img src="https://cdn.mafuhexo.cn/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221112103545.png" alt="微信截图_20221112103545"></p><ol><li>如果不写默认访问，[有四种: public, protected, 默认, private],</li><li>一个方法最多有一个返回值 [思考，如何返回多个结果 返回数组 ]</li><li>返回类型可以为任意类型，包含基本类型或引用类型(数组，对象)</li><li>如果方法要求有返回数据类型，则方法体中最后的执行语句必须为 return 值; 而且要求返回值类型必须和 return 的值类型一致或兼容</li><li>如果方法是 void，则方法体中可以没有 return 语句，或者 只写 return ;</li></ol><p><img src="https://cdn.mafuhexo.cn/img/image-20221112103759078.png" alt="image-20221112103759078"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112103824939.png" alt="image-20221112103824939"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类和对象的内存分配机制</title>
+      <link href="/2022/11/12/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6/"/>
+      <url>/2022/11/12/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="类和对象的内存分配机制"><a href="#类和对象的内存分配机制" class="headerlink" title="类和对象的内存分配机制"></a>类和对象的内存分配机制</h3><p>我们定义一个人类(Person)(包括 名字,年龄)。</p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112102403633.png" alt="image-20221112102403633"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112102408515.png" alt="image-20221112102408515"></p><h4 id="Java-内存的结构分析"><a href="#Java-内存的结构分析" class="headerlink" title="Java 内存的结构分析"></a>Java 内存的结构分析</h4><ol><li>栈： 一般存放基本数据类型(局部变量)</li><li>堆： 存放对象(Cat cat , 数组等)</li><li>方法区：常量池(常量，比如字符串)， 类加载信息</li><li>示意图 [Cat (name, age, price)]</li></ol><h4 id="Java-创建对象的流程简单分析"><a href="#Java-创建对象的流程简单分析" class="headerlink" title="Java 创建对象的流程简单分析"></a>Java 创建对象的流程简单分析</h4><p>Person p &#x3D; new Person();</p><p> p.name &#x3D; “jack”;</p><p>p.age &#x3D; 10</p><ol><li>先加载 Person 类信息(属性和方法信息, 只会加载一次)</li><li>在堆中分配空间, 进行默认初始化(看规则)</li><li>把地址赋给 p , p 就指向对象</li><li>进行指定初始化， 比如 p.name &#x3D;”jack”  p.age &#x3D; 10</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类属性</title>
+      <link href="/2022/11/12/%E7%B1%BB%E5%B1%9E%E6%80%A7/"/>
+      <url>/2022/11/12/%E7%B1%BB%E5%B1%9E%E6%80%A7/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本属性"><a href="#基本属性" class="headerlink" title="基本属性"></a>基本属性</h3><p><strong>从概念或叫法上看： 成员变量 &#x3D; 属性 &#x3D; field(字段)</strong></p><p><strong>属性是类的一个组成部分，一般是基本数据类型,也可是引用类型(对象，数组)。</strong></p><h3 id="注意事项和细节说明"><a href="#注意事项和细节说明" class="headerlink" title="注意事项和细节说明"></a>注意事项和细节说明</h3><ol><li>属性的定义语法同变量，示例：访问修饰符 属性类型   属性名; 这里老师简单的介绍访问修饰符： 控制属性的访问范围。有四种访问修饰符 public, proctected, 默认, private ,后面我会详细介绍</li><li>属性的定义类型可以为任意类型，包含基本类型或引用类型</li><li>属性如果不赋值，有默认值，规则和数组一致。具体说: int  0，short 0, byte 0, long 0, float 0.0,double 0.0，char \u0000， boolean false，String null</li></ol><h3 id="如何创建对象"><a href="#如何创建对象" class="headerlink" title="如何创建对象"></a>如何创建对象</h3><ol><li>先声明再创建：Cat cat ; &#x2F;&#x2F;声明对象 cat cat &#x3D; new Cat(); &#x2F;&#x2F;创建</li><li>直接创建：Cat cat &#x3D; new Cat();</li></ol><h3 id="如何返回属性"><a href="#如何返回属性" class="headerlink" title="如何返回属性"></a>如何返回属性</h3><p>语法：对象名.属性名;</p><h3 id="类和对象的内存分配机制"><a href="#类和对象的内存分配机制" class="headerlink" title="类和对象的内存分配机制"></a>类和对象的内存分配机制</h3><p>我们定义一个人类(Person)(包括 名字,年龄)。 </p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112102109707.png" alt="image-20221112102109707"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112102129592.png" alt="image-20221112102129592"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类与对象</title>
+      <link href="/2022/11/12/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/"/>
+      <url>/2022/11/12/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="类与对象的关系示意图"><a href="#类与对象的关系示意图" class="headerlink" title="类与对象的关系示意图"></a>类与对象的关系示意图</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112100543583.png" alt="image-20221112100543583"></p><p><img src="https://cdn.mafuhexo.cn/img/image-20221112100558589.png" alt="image-20221112100558589"></p><h3 id="类和对象的区别和联系"><a href="#类和对象的区别和联系" class="headerlink" title="类和对象的区别和联系"></a>类和对象的区别和联系</h3><ol><li>类是抽象的，概念的，代表一类事物,比如人类,猫类.., 即它是数据类型。</li><li>对象是具体的，实际的，代表一个具体事物, 即 是实例。</li><li>类是对象的模板，对象是类的一个个体，对应一个实例</li></ol><h3 id="对象在内存中存在的形式"><a href="#对象在内存中存在的形式" class="headerlink" title="对象在内存中存在的形式"></a>对象在内存中存在的形式</h3><p><img src="https://cdn.mafuhexo.cn/img/image-20221112100827957.png" alt="image-20221112100827957"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java面向对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>二维数组</title>
       <link href="/2022/11/11/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84/"/>
       <url>/2022/11/11/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84/</url>
