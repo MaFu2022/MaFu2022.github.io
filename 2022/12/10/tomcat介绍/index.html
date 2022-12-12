@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>tomcat介绍 | Java Notes</title><meta name="keywords" content="Tomcat知识"><meta name="author" content="Ma Fu"><meta name="copyright" content="Ma Fu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Tomcat 本质就是一个 Java 程序, 但是这个 Java 程序可以处理来自浏览器的 HTTP 请求 Tomcat  启动 双击 bin 的 目录下的 startup.bat  输入 http:&#x2F;&#x2F;localhost:8080&#x2F;，显示如下界面代表安装成功, 默认在 8080 端口 注意，不要关闭黑窗口，关闭了，tomcat 服务就停止了. 在开发中，我们可以看一下哪些端口在监听    net">
+<meta property="og:type" content="article">
+<meta property="og:title" content="tomcat介绍">
+<meta property="og:url" content="http://example.com/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/index.html">
+<meta property="og:site_name" content="Java Notes">
+<meta property="og:description" content="Tomcat 本质就是一个 Java 程序, 但是这个 Java 程序可以处理来自浏览器的 HTTP 请求 Tomcat  启动 双击 bin 的 目录下的 startup.bat  输入 http:&#x2F;&#x2F;localhost:8080&#x2F;，显示如下界面代表安装成功, 默认在 8080 端口 注意，不要关闭黑窗口，关闭了，tomcat 服务就停止了. 在开发中，我们可以看一下哪些端口在监听    net">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.mafuhexo.cn/hexoimg/archive.jpg">
+<meta property="article:published_time" content="2022-12-10T14:16:09.000Z">
+<meta property="article:modified_time" content="2022-12-11T16:06:27.315Z">
+<meta property="article:author" content="Ma Fu">
+<meta property="article:tag" content="Tomcat知识">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.mafuhexo.cn/hexoimg/archive.jpg"><link rel="shortcut icon" href="https://cdn.mafuhexo.cn/hexoimg/favicon.png"><link rel="canonical" href="http://example.com/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'tomcat介绍',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-12 00:06:27'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/tx.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">183</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.mafuhexo.cn/hexoimg/archive.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Java Notes</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">tomcat介绍</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-10T14:16:09.000Z" title="发表于 2022-12-10 22:16:09">2022-12-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-11T16:06:27.315Z" title="更新于 2022-12-12 00:06:27">2022-12-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/JAVAWeb%E6%95%B4%E5%90%88/">JAVAWeb整合</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="tomcat介绍"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>Tomcat 本质就是一个 Java 程序, 但是这个 Java 程序可以处理来自浏览器的 HTTP 请求</strong></p>
+<h3 id="Tomcat-启动"><a href="#Tomcat-启动" class="headerlink" title="Tomcat  启动"></a>Tomcat  启动</h3><ol>
+<li>双击 bin 的 目录下的 startup.bat </li>
+<li>输入 <a target="_blank" rel="noopener" href="http://localhost:8080/%EF%BC%8C%E6%98%BE%E7%A4%BA%E5%A6%82%E4%B8%8B%E7%95%8C%E9%9D%A2%E4%BB%A3%E8%A1%A8%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F">http://localhost:8080/，显示如下界面代表安装成功</a>, 默认在 8080 端口</li>
+<li>注意，不要关闭黑窗口，关闭了，tomcat 服务就停止了.</li>
+<li>在开发中，我们可以看一下哪些端口在监听    netstat -anb (使用管理员权限)  后面加上   | more 可以过滤</li>
+</ol>
+<h3 id="Tomcat的目录结构"><a href="#Tomcat的目录结构" class="headerlink" title="Tomcat的目录结构"></a>Tomcat的目录结构</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212102223612.png" alt="image-20221210222309481"></p>
+<ol>
+<li>server.xml 用于配置 tomcat 的基本设置(启动端口，关闭端口, 主机名)</li>
+<li>wex.xml 用于指定 tomcat 运行时配置(比如 servlet 等..)</li>
+<li>webapps 目录是存放 web 应用，就是网站</li>
+</ol>
+<h3 id="catalina-启动-Tomcat"><a href="#catalina-启动-Tomcat" class="headerlink" title="catalina  启动 Tomcat"></a>catalina  启动 Tomcat</h3><ol>
+<li>进入到 Tomcat 的 bin  目录下</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212102224859.png" alt="image-20221210222450805"></p>
+<ol start="2">
+<li>执行命令： catalina run</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212102225757.png" alt="image-20221210222508692"></p>
+<h3 id="停止-Tomcat"><a href="#停止-Tomcat" class="headerlink" title="停止 Tomcat"></a>停止 Tomcat</h3><ol>
+<li>点击 tomcat  服务器窗口，直接点击的关闭按钮</li>
+<li>进入 Tomcat 的 bin 目录下的 shutdown.bat 双击，就可以停止 Tomcat 服务器(推荐)</li>
+</ol>
+<h3 id="修改-Tomcat-服务端口"><a href="#修改-Tomcat-服务端口" class="headerlink" title="修改 Tomcat  服务端口"></a>修改 Tomcat  服务端口</h3><ol>
+<li>omcat 的 目录下的 conf 改 目录，修改 server.xml</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212102226472.png" alt="image-20221210222623396"></p>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a> , 默 认 是 访 问 80 端 口 , 即 <a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a> 等 价<a target="_blank" rel="noopener" href="http://localhost/">http://localhost:80</a></li>
+</ol>
+<h3 id="Tomcat-服务中部署-WEB-应用"><a href="#Tomcat-服务中部署-WEB-应用" class="headerlink" title="Tomcat  服务中部署 WEB  应用"></a>Tomcat  服务中部署 WEB  应用</h3><ol>
+<li>WEB应用是多个web资源的集合。简单的说，可以把web应用理解为硬盘上的一个目录，这个目录用于管理多个web资源。</li>
+<li>Web应用通常也称之为web应用程序，或web工程，通俗的说 就是网站。</li>
+</ol>
+<p>一个 WEB 应用由多个 WEB 资源或其它文件组成，包括 html 文件、css 文件、js 文件、动态 web 页面、java 程序、支持 jar 包、配置文件等。开发人员在开发 web 应用时，按照规定目录结构存放这些文件。否则，在把 web 应用交给 web 服务器管理时，不仅可能会使web 应用无法访问，还会导致 web 服务器启动报错。</p>
+<h4 id="JavaWeb程序-x2F-应用-x2F-工程目录结构"><a href="#JavaWeb程序-x2F-应用-x2F-工程目录结构" class="headerlink" title="JavaWeb程序&#x2F;应用&#x2F;工程目录结构"></a>JavaWeb程序&#x2F;应用&#x2F;工程目录结构</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212112147453.png" alt="image-20221211214705267"></p>
+<h4 id="部署方式1将-web-工程的目录拷贝到-Tomcat-的-webapps-目录下"><a href="#部署方式1将-web-工程的目录拷贝到-Tomcat-的-webapps-目录下" class="headerlink" title="部署方式1将 web 工程的目录拷贝到 Tomcat 的 webapps 目录下"></a>部署方式1将 web 工程的目录拷贝到 Tomcat 的 webapps 目录下</h4><ol>
+<li>news Web工程(目前都是静态资源 html, 图片)</li>
+<li>将该news目录&#x2F;文件夹 拷贝到 Tomcat 的webapps目录下</li>
+<li>浏览器输入： <a href="http://ip[域名]:port/news/子目录../文件名">http://ip[域名]:port/news/子目录../文件名</a></li>
+</ol>
+<h4 id="部署方式2：通过配置文件来部署-只做介绍"><a href="#部署方式2：通过配置文件来部署-只做介绍" class="headerlink" title="部署方式2：通过配置文件来部署(只做介绍)"></a>部署方式2：通过配置文件来部署(只做介绍)</h4><p>在Tomcat 下的 conf 目录\Catalina\localhost\ 下,配置文件，比如hsp.xml(提醒：知道Tomcat通过配置，可以把一个web应用，映射到指定的目录，可以解决磁盘空间分配的问题.)</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212112148198.png" alt="image-20221211214841129"></p>
+<p>访问web工程: <a href="http://ip[域名]:port/hsp/index.html">http://ip[域名]:port/hsp/index.html</a> 就表示访问 D:\album 目录下的index.html.</p>
+<h4 id="ROOT-的工程的访问"><a href="#ROOT-的工程的访问" class="headerlink" title="ROOT 的工程的访问"></a>ROOT 的工程的访问</h4><ol>
+<li>在浏览器地址栏中输入访问地址如下：<a href="http://ip[域名]:port，没有Web工程/应用名时，默认访问的是">http://ip[域名]:port，没有Web工程/应用名时，默认访问的是</a> ROOT 工程</li>
+<li>在浏览器地址栏中输入的访问地址如下： <a href="http://ip[域名]:port/工程名/">http://ip[域名]:port/工程名/</a> ，没有资源名，默认访问 index.jsp 页面</li>
+</ol>
+<h3 id="浏览器访问-b-web-服务器文件-L-UML-时序图"><a href="#浏览器访问-b-web-服务器文件-L-UML-时序图" class="headerlink" title="浏览器访问 b web  服务器文件 L UML  时序图"></a>浏览器访问 b web  服务器文件 L UML  时序图</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212112223910.png" alt="image-20221211222339754"></p>
+<h3 id="开发-javaweb-工程-配置-TomCat-注意事项"><a href="#开发-javaweb-工程-配置-TomCat-注意事项" class="headerlink" title="开发 javaweb 工程   配置 TomCat 注意事项"></a>开发 javaweb 工程   配置 TomCat 注意事项</h3><h4 id="热加载说明"><a href="#热加载说明" class="headerlink" title="热加载说明"></a>热加载说明</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212120002791.png" alt="image-20221212000222721"></p>
+<ol>
+<li>on update action : 表示当我们更新操作是, Tomcat 会自动更新类和资源 (当jsp&#x2F;html文件修改时，可以生效, 但是如果你修改的 java 文件, 需要 Redepoly 才会生效)</li>
+<li>on frame deactivation : 表示 IDEA 失去焦点(比如最小化), 也会导致 jsp&#x2F;html 发生更新 , 但是 java 修改了，还是需要 redeploy</li>
+</ol>
+<h4 id="端口修改"><a href="#端口修改" class="headerlink" title="端口修改"></a>端口修改</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212120003640.png" alt="image-20221212000311591"></p>
+<p>这里修改的端口， 只会影响到当前的项目，而不是去修改 server.xml</p>
+<h4 id="out-目录是什么"><a href="#out-目录是什么" class="headerlink" title="out 目录是什么"></a>out 目录是什么</h4><p>当 tomcat 启动时，会生成 out 目录，该目录就是 原项目资源的映射，我们浏览器访问的资源是 out 目录</p>
+<p> 当我们从外部拷贝资源到项目(图片, 文件, js , css 等), 如果出现 404 不能访问错误 , 解决方式 rebulid project -&gt; 重启 Tomcat</p>
+<h3 id="JavaWeb-工程的目录介绍"><a href="#JavaWeb-工程的目录介绍" class="headerlink" title="JavaWeb  工程的目录介绍"></a>JavaWeb  工程的目录介绍</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212120006232.png" alt="image-20221212000615142"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Ma Fu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/">http://example.com/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Java Notes</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Tomcat%E7%9F%A5%E8%AF%86/">Tomcat知识</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/12/06/DOM4j%E5%BA%94%E7%94%A8/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">DOM4j应用</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/tx.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Ma Fu</div><div class="author-info__description">摔倒了爬起来就好。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">183</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>my github</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat-%E5%90%AF%E5%8A%A8"><span class="toc-number">1.</span> <span class="toc-text">Tomcat  启动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">2.</span> <span class="toc-text">Tomcat的目录结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#catalina-%E5%90%AF%E5%8A%A8-Tomcat"><span class="toc-number">3.</span> <span class="toc-text">catalina  启动 Tomcat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%81%9C%E6%AD%A2-Tomcat"><span class="toc-number">4.</span> <span class="toc-text">停止 Tomcat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9-Tomcat-%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%8F%A3"><span class="toc-number">5.</span> <span class="toc-text">修改 Tomcat  服务端口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat-%E6%9C%8D%E5%8A%A1%E4%B8%AD%E9%83%A8%E7%BD%B2-WEB-%E5%BA%94%E7%94%A8"><span class="toc-number">6.</span> <span class="toc-text">Tomcat  服务中部署 WEB  应用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#JavaWeb%E7%A8%8B%E5%BA%8F-x2F-%E5%BA%94%E7%94%A8-x2F-%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">6.1.</span> <span class="toc-text">JavaWeb程序&#x2F;应用&#x2F;工程目录结构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F1%E5%B0%86-web-%E5%B7%A5%E7%A8%8B%E7%9A%84%E7%9B%AE%E5%BD%95%E6%8B%B7%E8%B4%9D%E5%88%B0-Tomcat-%E7%9A%84-webapps-%E7%9B%AE%E5%BD%95%E4%B8%8B"><span class="toc-number">6.2.</span> <span class="toc-text">部署方式1将 web 工程的目录拷贝到 Tomcat 的 webapps 目录下</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F2%EF%BC%9A%E9%80%9A%E8%BF%87%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9D%A5%E9%83%A8%E7%BD%B2-%E5%8F%AA%E5%81%9A%E4%BB%8B%E7%BB%8D"><span class="toc-number">6.3.</span> <span class="toc-text">部署方式2：通过配置文件来部署(只做介绍)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ROOT-%E7%9A%84%E5%B7%A5%E7%A8%8B%E7%9A%84%E8%AE%BF%E9%97%AE"><span class="toc-number">6.4.</span> <span class="toc-text">ROOT 的工程的访问</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE-b-web-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%96%87%E4%BB%B6-L-UML-%E6%97%B6%E5%BA%8F%E5%9B%BE"><span class="toc-number">7.</span> <span class="toc-text">浏览器访问 b web  服务器文件 L UML  时序图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E5%8F%91-javaweb-%E5%B7%A5%E7%A8%8B-%E9%85%8D%E7%BD%AE-TomCat-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">8.</span> <span class="toc-text">开发 javaweb 工程   配置 TomCat 注意事项</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%83%AD%E5%8A%A0%E8%BD%BD%E8%AF%B4%E6%98%8E"><span class="toc-number">8.1.</span> <span class="toc-text">热加载说明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AB%AF%E5%8F%A3%E4%BF%AE%E6%94%B9"><span class="toc-number">8.2.</span> <span class="toc-text">端口修改</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#out-%E7%9B%AE%E5%BD%95%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">8.3.</span> <span class="toc-text">out 目录是什么</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaWeb-%E5%B7%A5%E7%A8%8B%E7%9A%84%E7%9B%AE%E5%BD%95%E4%BB%8B%E7%BB%8D"><span class="toc-number">9.</span> <span class="toc-text">JavaWeb  工程的目录介绍</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/" title="tomcat介绍"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="tomcat介绍"/></a><div class="content"><a class="title" href="/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/" title="tomcat介绍">tomcat介绍</a><time datetime="2022-12-10T14:16:09.000Z" title="发表于 2022-12-10 22:16:09">2022-12-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/06/DOM4j%E5%BA%94%E7%94%A8/" title="DOM4j应用"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="DOM4j应用"/></a><div class="content"><a class="title" href="/2022/12/06/DOM4j%E5%BA%94%E7%94%A8/" title="DOM4j应用">DOM4j应用</a><time datetime="2022-12-06T14:23:19.000Z" title="发表于 2022-12-06 22:23:19">2022-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/05/XML%E8%A7%A3%E6%9E%90/" title="XML解析"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="XML解析"/></a><div class="content"><a class="title" href="/2022/12/05/XML%E8%A7%A3%E6%9E%90/" title="XML解析">XML解析</a><time datetime="2022-12-05T14:08:37.000Z" title="发表于 2022-12-05 22:08:37">2022-12-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/04/HTML-DOM%E8%8A%82%E7%82%B9/" title="HTML DOM节点"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML DOM节点"/></a><div class="content"><a class="title" href="/2022/12/04/HTML-DOM%E8%8A%82%E7%82%B9/" title="HTML DOM节点">HTML DOM节点</a><time datetime="2022-12-04T13:23:01.000Z" title="发表于 2022-12-04 21:23:01">2022-12-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/04/document%E5%AF%B9%E8%B1%A1/" title="document对象"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="document对象"/></a><div class="content"><a class="title" href="/2022/12/04/document%E5%AF%B9%E8%B1%A1/" title="document对象">document对象</a><time datetime="2022-12-04T11:49:22.000Z" title="发表于 2022-12-04 19:49:22">2022-12-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Ma Fu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
