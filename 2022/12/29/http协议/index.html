@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>http协议 | Java Notes</title><meta name="keywords" content="http"><meta name="author" content="Ma Fu"><meta name="copyright" content="Ma Fu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="什么是  HTTP  协议  超文本传输协议(HTTP ，HyperText Transfer Protocol) 是互联网上应用广泛的一种网络协议。是工作在 tcp&#x2F;ip  协议基础上的, 所有的 WWW  文件都遵守这个标准。 画出 http 请求 hi.html 的 UML 时序图 &lt;!DOCTYPE html&gt;&lt;html lang&#x3D;&quot;en&quot;&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="http协议">
+<meta property="og:url" content="http://example.com/2022/12/29/http%E5%8D%8F%E8%AE%AE/index.html">
+<meta property="og:site_name" content="Java Notes">
+<meta property="og:description" content="什么是  HTTP  协议  超文本传输协议(HTTP ，HyperText Transfer Protocol) 是互联网上应用广泛的一种网络协议。是工作在 tcp&#x2F;ip  协议基础上的, 所有的 WWW  文件都遵守这个标准。 画出 http 请求 hi.html 的 UML 时序图 &lt;!DOCTYPE html&gt;&lt;html lang&#x3D;&quot;en&quot;&amp;">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.mafuhexo.cn/hexoimg/archive.jpg">
+<meta property="article:published_time" content="2022-12-29T13:47:25.000Z">
+<meta property="article:modified_time" content="2022-12-30T14:22:47.076Z">
+<meta property="article:author" content="Ma Fu">
+<meta property="article:tag" content="http">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.mafuhexo.cn/hexoimg/archive.jpg"><link rel="shortcut icon" href="https://cdn.mafuhexo.cn/hexoimg/favicon.png"><link rel="canonical" href="http://example.com/2022/12/29/http%E5%8D%8F%E8%AE%AE/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'http协议',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-30 22:22:47'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/tx.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">187</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.mafuhexo.cn/hexoimg/archive.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Java Notes</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">http协议</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-29T13:47:25.000Z" title="发表于 2022-12-29 21:47:25">2022-12-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-30T14:22:47.076Z" title="更新于 2022-12-30 22:22:47">2022-12-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/JAVAWeb%E6%95%B4%E5%90%88/">JAVAWeb整合</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="http协议"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h3 id="什么是-HTTP-协议"><a href="#什么是-HTTP-协议" class="headerlink" title="什么是  HTTP  协议"></a>什么是  HTTP  协议</h3><p>  超文本传输协议(HTTP ，HyperText Transfer Protocol) 是互联网上应用广泛的一种网络协议。是工作在 tcp&#x2F;ip  协议基础上的, 所有的 WWW  文件都遵守这个标准。</p>
+<h3 id="画出-http-请求-hi-html-的-UML-时序图"><a href="#画出-http-请求-hi-html-的-UML-时序图" class="headerlink" title="画出 http 请求 hi.html 的 UML 时序图"></a>画出 http 请求 hi.html 的 UML 时序图</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292205564.png" alt="image-20221229220457387"></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>http请求的问题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>图片<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;imgs/1.png&quot;</span> <span class="attr">width</span>=<span class="string">&quot;300px&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;imgs/2.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>当访问 test.html 页面时, 问浏览器发出几次 http 请求?</strong></p>
+<p>一共3次</p>
+<p>第一次请求的 test.html</p>
+<p>当浏览器解析发现 test.html 中有 </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;imgs/1.png&quot;</span> <span class="attr">width</span>=<span class="string">&quot;300px&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;imgs/2.png&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p> 会向服务器继续发请求，要 1.png 和 2.png, 一共 3 次</p>
+<h3 id="HTTP-请求包分析（GET）"><a href="#HTTP-请求包分析（GET）" class="headerlink" title="HTTP  请求包分析（GET）"></a>HTTP  请求包分析（GET）</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292208779.png" alt="image-20221229220832670"></p>
+<h3 id="案例说明"><a href="#案例说明" class="headerlink" title="案例说明"></a>案例说明</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292208688.png" alt="image-20221229220855620"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292209879.png" alt="image-20221229220904815"></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>用户登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>用户登录<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;http://localhost:8080/http/login&quot;</span> <span class="attr">method</span>=<span class="string">&quot;get&quot;</span>&gt;</span></span><br><span class="line">u: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;username&quot;</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">p: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;pwd&quot;</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">value</span>=<span class="string">&quot;用户登录&quot;</span>&gt;</span> <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">value</span>=<span class="string">&quot;清空&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.hspedu.http.servlet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.io.PrintWriter;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> 韩顺平</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@version</span> 1.0</span></span><br><span class="line"><span class="comment"> * LoginServlet</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">LoginServlet</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> javax.servlet.ServletException, IOException &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> javax.servlet.ServletException, IOException &#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//服务端输出</span></span><br><span class="line">        System.out.println(<span class="string">&quot;LoginServlet doGet() 被调用&quot;</span>);</span><br><span class="line">        <span class="comment">//输出一句话, 返回给浏览器</span></span><br><span class="line">        <span class="comment">//1. 通response 获取流 PrintWriter, 可以给浏览器回复数据</span></span><br><span class="line">        <span class="comment">//2. 为了让浏览器显示中文，需要告诉浏览器，我们的编码是utf-8</span></span><br><span class="line">        <span class="comment">//老韩解读: (1) 给会送数据设置编码 (2) text/html这个是MIME即告诉浏览器返回的数据</span></span><br><span class="line">        <span class="comment">//是 text类型下的html格式数据【MIME类型 大类型/小类型】(3)charset=utf-8数据编码</span></span><br><span class="line">        <span class="comment">//小小细节: 设置编码格式要在 response.getWriter()!!</span></span><br><span class="line">        response.setContentType(<span class="string">&quot;text/html;charset=utf-8&quot;</span>);</span><br><span class="line">        <span class="type">PrintWriter</span> <span class="variable">writer</span> <span class="operator">=</span> response.getWriter();</span><br><span class="line">        writer.print(<span class="string">&quot;&lt;h1&gt;GET()登录成功~~&lt;/h1&gt;&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//为了确保数据返回，可以把 flush()和close()</span></span><br><span class="line">        <span class="comment">//程序员有强迫症</span></span><br><span class="line">        <span class="comment">//flush() 方法表示将缓存的数据进行刷新</span></span><br><span class="line">        writer.flush();</span><br><span class="line">        <span class="comment">//close() 表示关闭流,及时释放资源,  有些语言是 close() 有 flush()</span></span><br><span class="line">        writer.close();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="抓包测试"><a href="#抓包测试" class="headerlink" title="抓包测试"></a>抓包测试</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292211877.png" alt="image-20221229221113744"></p>
+<h3 id="HTTP-请求包分析（POST）"><a href="#HTTP-请求包分析（POST）" class="headerlink" title="HTTP  请求包分析（POST）"></a>HTTP  请求包分析（POST）</h3><p>修改 login.html, 将提交方式改成 post</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;http://localhost:8080/http/login&quot;</span> <span class="attr">method</span>=<span class="string">&quot;post&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>修改LoginServlet文件</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">    response.setContentType(<span class="string">&quot;text/html;charset = utf-8&quot;</span>);</span><br><span class="line">    <span class="type">PrintWriter</span> <span class="variable">writer</span> <span class="operator">=</span> response.getWriter();</span><br><span class="line">    writer.print(<span class="string">&quot;&lt;h1&gt;post登录成功&lt;/h1&gt;&quot;</span>);</span><br><span class="line">    writer.flush();</span><br><span class="line">    writer.close();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="完成测试-HTTP-请求包分析-POST-图"><a href="#完成测试-HTTP-请求包分析-POST-图" class="headerlink" title="完成测试, HTTP 请求包分析(POST)图"></a>完成测试, HTTP 请求包分析(POST)图</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212292232135.png" alt="image-20221229223239986"></p>
+<p><strong>老韩说明: %E9%9F%A9%E9%A1%BA%E5%B9%B3 是 url 编码 , 在服务端会自动解码 .</strong></p>
+<h3 id="GET-请求-T-POST-请求分别有哪些"><a href="#GET-请求-T-POST-请求分别有哪些" class="headerlink" title="GET  请求 T POST  请求分别有哪些?"></a>GET  请求 T POST  请求分别有哪些?</h3><h4 id="GET请求有哪些"><a href="#GET请求有哪些" class="headerlink" title="GET请求有哪些"></a>GET请求有哪些</h4><ol>
+<li><p>form 标签 method&#x3D;get [指定]</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;http://localhost:8080/http/login&quot;</span> <span class="attr">method</span>=<span class="string">&quot;get&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>a 标签</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.baidu.com&quot;</span>&gt;</span>goto 百度<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>link 标签引入 css [以get方式来获取资源]</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 通过 get 请求获取 my.css--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/my.css&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Script 标签引入 js 文件 [以get方式来获取资源]</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 通过 get 请求获取 my.js--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;js/my.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>img 标签引入图片 [以get请求来获取图片]</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 是 get 请求 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;imgs/1.png&quot;</span> <span class="attr">width</span>=<span class="string">&quot;400px&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>iframe 引入 html 页面 [不演示]</p>
+</li>
+<li><p>在浏览器地址栏中输入地址后敲回车[用的比较多]</p>
+</li>
+</ol>
+<h4 id="POST请求有哪些"><a href="#POST请求有哪些" class="headerlink" title="POST请求有哪些"></a>POST请求有哪些</h4><p>form 标签 method&#x3D;post</p>
+<h4 id="HTTP-请求中怎样选择-Get-和-Post-方式"><a href="#HTTP-请求中怎样选择-Get-和-Post-方式" class="headerlink" title="HTTP 请求中怎样选择 Get 和 Post 方式"></a>HTTP 请求中怎样选择 Get 和 Post 方式</h4><p><strong>在大部分情况下，我们不需要考虑这个问题，因为业务本身就会自动区别，比如你要显示图片，引入 css&#x2F;js 这个天然的就是 get 请求，比如你登录，发帖，上传文件， 你就会使用 post(感情的自然流露)</strong></p>
+<h4 id="传输的数据大小区别"><a href="#传输的数据大小区别" class="headerlink" title="传输的数据大小区别"></a>传输的数据大小区别</h4><ul>
+<li>get 传送的数据量较小。不能大于 2KB(不同浏览器不一样)</li>
+<li>post 传送的数据量较大。一般默认不受限制</li>
+</ul>
+<h4 id="什么情况下使用post请求"><a href="#什么情况下使用post请求" class="headerlink" title="什么情况下使用post请求"></a>什么情况下使用post请求</h4><ul>
+<li>post 请求是会在浏览器上隐藏參数部分的，在安全要求的部分都会使用到 POST 请求。如用户登录。数据增上改等等。都会把參数隐藏起来，这样就不会通过你的请求暴露你的參数格式</li>
+<li>在向 server 传递数据较大的时候。使用 POST，get 是有限制的, 比如发帖, 上传文件</li>
+</ul>
+<h4 id="什么情况下使用-get-请求"><a href="#什么情况下使用-get-请求" class="headerlink" title="什么情况下使用 get 请求"></a>什么情况下使用 get 请求</h4><ol>
+<li>在前台页面展示，比如分页内容等，可以保留传递参数, 可用来非常好的分享和传播,POST 中链接地址是不变化的</li>
+<li>get 方式的安全性较 Post 方式要差些。包括机密信息的话。建议用 Post 数据提交方式</li>
+<li>在做数据查询时。建议用 Get 方式；而在做数据加入、改动或删除时，建议用 Post方式</li>
+</ol>
+<h4 id="HTTP-响应包分析"><a href="#HTTP-响应包分析" class="headerlink" title="HTTP 响应包分析"></a>HTTP 响应包分析</h4><p>HTTP  响应包括 3  个部分：响应行，响应头，响应体。</p>
+<h4 id="分析图"><a href="#分析图" class="headerlink" title="分析图"></a>分析图</h4><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212302135396.png" alt="image-20221230213501253"></p>
+<h3 id="常见的状态码"><a href="#常见的状态码" class="headerlink" title="常见的状态码"></a>常见的状态码</h3><h4 id="302状态码"><a href="#302状态码" class="headerlink" title="302状态码"></a>302状态码</h4><ul>
+<li>浏览器请求 T1Servelt</li>
+<li>T1Servlet 返回 302 的状态码, 并且指定浏览器重定向到 hi.html</li>
+<li>浏览器发出第二次请求 hi.html</li>
+</ul>
+<h5 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.mafu.http.servlet;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.servlet.ServletException;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.annotation.WebServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServlet;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> 马富</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@version</span> 1.0</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@WebServlet(name = &quot;Servlet&quot; , urlPatterns = &#123;&quot;/T1&quot;&#125;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">T1Servlet</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        <span class="comment">//重定向</span></span><br><span class="line">        response.sendRedirect(<span class="string">&quot;/http/hi.html&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doGet</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        doPost(request,response);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="抓包"><a href="#抓包" class="headerlink" title="抓包"></a>抓包</h5><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212302201209.png" alt="image-20221230220155958"></p>
+<h4 id="304状态码"><a href="#304状态码" class="headerlink" title="304状态码"></a>304状态码</h4><ul>
+<li>当我们请求资源的时，服务器会返回该资源的最近修改时间Last-Modified: Mon, 21 Feb 2022 04:51:31 GMT，如果浏览器禁用缓存,  这个 Last-Modified: 信息就没有使用,  浏览器就每次要求返回该资源</li>
+<li>如果浏览器没有禁用缓存浏览器在请求时，就会 If-Modified-Since: Mon, 21 Feb 2022 04:51:31 GMT, （1）告诉服务器我有该资源 (2) 该资源的最近修改时间是 Mon, 21 Feb 2022 04:51:31GM，这时服务器就会比较时间，如果服务器的资源更新， 源 就会返回该资源 ,  如果发现没有修改，就返回304  状态码( 但是不会返回该资源) http 请求机制</li>
+</ul>
+<h3 id="常见的MIME类型"><a href="#常见的MIME类型" class="headerlink" title="常见的MIME类型"></a>常见的MIME类型</h3><p>MIME 是 HTTP 协议中数据类型。MIME 的英文全称是”Multipurpose Internet MailExtensions”  多功能 Internet  邮件扩充服务。MIME 类型的格式是” 大类型&#x2F; 小类型”，并与某一种文件的扩展名相对应</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://cdn.mafuhexo.cn/img/202212302222101.png" alt="image-20221230222229886"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Ma Fu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/29/http%E5%8D%8F%E8%AE%AE/">http://example.com/2022/12/29/http%E5%8D%8F%E8%AE%AE/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Java Notes</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/http/">http</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/12/15/%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AEservlet/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">注解配置servlet</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/tx.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Ma Fu</div><div class="author-info__description">摔倒了爬起来就好。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">187</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>my github</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-HTTP-%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.</span> <span class="toc-text">什么是  HTTP  协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%BB%E5%87%BA-http-%E8%AF%B7%E6%B1%82-hi-html-%E7%9A%84-UML-%E6%97%B6%E5%BA%8F%E5%9B%BE"><span class="toc-number">2.</span> <span class="toc-text">画出 http 请求 hi.html 的 UML 时序图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP-%E8%AF%B7%E6%B1%82%E5%8C%85%E5%88%86%E6%9E%90%EF%BC%88GET%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">HTTP  请求包分析（GET）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B%E8%AF%B4%E6%98%8E"><span class="toc-number">4.</span> <span class="toc-text">案例说明</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%93%E5%8C%85%E6%B5%8B%E8%AF%95"><span class="toc-number">4.1.</span> <span class="toc-text">抓包测试</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP-%E8%AF%B7%E6%B1%82%E5%8C%85%E5%88%86%E6%9E%90%EF%BC%88POST%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">HTTP  请求包分析（POST）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%8C%E6%88%90%E6%B5%8B%E8%AF%95-HTTP-%E8%AF%B7%E6%B1%82%E5%8C%85%E5%88%86%E6%9E%90-POST-%E5%9B%BE"><span class="toc-number">5.1.</span> <span class="toc-text">完成测试, HTTP 请求包分析(POST)图</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GET-%E8%AF%B7%E6%B1%82-T-POST-%E8%AF%B7%E6%B1%82%E5%88%86%E5%88%AB%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">6.</span> <span class="toc-text">GET  请求 T POST  请求分别有哪些?</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#GET%E8%AF%B7%E6%B1%82%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">6.1.</span> <span class="toc-text">GET请求有哪些</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#POST%E8%AF%B7%E6%B1%82%E6%9C%89%E5%93%AA%E4%BA%9B"><span class="toc-number">6.2.</span> <span class="toc-text">POST请求有哪些</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#HTTP-%E8%AF%B7%E6%B1%82%E4%B8%AD%E6%80%8E%E6%A0%B7%E9%80%89%E6%8B%A9-Get-%E5%92%8C-Post-%E6%96%B9%E5%BC%8F"><span class="toc-number">6.3.</span> <span class="toc-text">HTTP 请求中怎样选择 Get 和 Post 方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%A0%E8%BE%93%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B0%8F%E5%8C%BA%E5%88%AB"><span class="toc-number">6.4.</span> <span class="toc-text">传输的数据大小区别</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BD%BF%E7%94%A8post%E8%AF%B7%E6%B1%82"><span class="toc-number">6.5.</span> <span class="toc-text">什么情况下使用post请求</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E4%BD%BF%E7%94%A8-get-%E8%AF%B7%E6%B1%82"><span class="toc-number">6.6.</span> <span class="toc-text">什么情况下使用 get 请求</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#HTTP-%E5%93%8D%E5%BA%94%E5%8C%85%E5%88%86%E6%9E%90"><span class="toc-number">6.7.</span> <span class="toc-text">HTTP 响应包分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E6%9E%90%E5%9B%BE"><span class="toc-number">6.8.</span> <span class="toc-text">分析图</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E7%8A%B6%E6%80%81%E7%A0%81"><span class="toc-number">7.</span> <span class="toc-text">常见的状态码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#302%E7%8A%B6%E6%80%81%E7%A0%81"><span class="toc-number">7.1.</span> <span class="toc-text">302状态码</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-number">7.1.1.</span> <span class="toc-text">代码</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%8A%93%E5%8C%85"><span class="toc-number">7.1.2.</span> <span class="toc-text">抓包</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#304%E7%8A%B6%E6%80%81%E7%A0%81"><span class="toc-number">7.2.</span> <span class="toc-text">304状态码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84MIME%E7%B1%BB%E5%9E%8B"><span class="toc-number">8.</span> <span class="toc-text">常见的MIME类型</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/12/29/http%E5%8D%8F%E8%AE%AE/" title="http协议"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="http协议"/></a><div class="content"><a class="title" href="/2022/12/29/http%E5%8D%8F%E8%AE%AE/" title="http协议">http协议</a><time datetime="2022-12-29T13:47:25.000Z" title="发表于 2022-12-29 21:47:25">2022-12-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/15/%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AEservlet/" title="注解配置servlet"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="注解配置servlet"/></a><div class="content"><a class="title" href="/2022/12/15/%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AEservlet/" title="注解配置servlet">注解配置servlet</a><time datetime="2022-12-15T14:01:10.000Z" title="发表于 2022-12-15 22:01:10">2022-12-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/15/HttpServlet%E4%BB%8B%E7%BB%8D/" title="HttpServlet介绍"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HttpServlet介绍"/></a><div class="content"><a class="title" href="/2022/12/15/HttpServlet%E4%BB%8B%E7%BB%8D/" title="HttpServlet介绍">HttpServlet介绍</a><time datetime="2022-12-15T12:11:26.000Z" title="发表于 2022-12-15 20:11:26">2022-12-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/12/servlet%E4%BB%8B%E7%BB%8D/" title="servlet介绍"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="servlet介绍"/></a><div class="content"><a class="title" href="/2022/12/12/servlet%E4%BB%8B%E7%BB%8D/" title="servlet介绍">servlet介绍</a><time datetime="2022-12-12T13:15:37.000Z" title="发表于 2022-12-12 21:15:37">2022-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/" title="tomcat介绍"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.mafuhexo.cn/hexoimg/archive.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="tomcat介绍"/></a><div class="content"><a class="title" href="/2022/12/10/tomcat%E4%BB%8B%E7%BB%8D/" title="tomcat介绍">tomcat介绍</a><time datetime="2022-12-10T14:16:09.000Z" title="发表于 2022-12-10 22:16:09">2022-12-10</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Ma Fu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
